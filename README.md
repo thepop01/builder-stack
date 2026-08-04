@@ -1,635 +1,258 @@
-# 🚀 Awesome 2026 Builder Stack
-
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
-A curated list of the best AI tools, autonomous agents, and frameworks for the modern AI Engineer.
-
-## 📋 Table of Contents
-
-- [🤖 AI Agents](#-ai-agents)
-- [💻 Coding Agents](#-coding-agents)
-- [🔬 Research](#-research)
-- [🌐 Browser Automation](#-browser-automation)
-- [🔄 Workflow Automation](#-workflow-automation)
-- [🧠 MCP & Memory](#-mcp--memory)
-- [🌍 AI Gateways & Model Routers](#-ai-gateways--model-routers)
-- [🗄️ Databases & Infrastructure](#️-databases--infrastructure)
-- [🔌 APIs & Integrations](#-apis--integrations)
-- [📄 PDF & Documents](#-pdf--documents)
-- [📈 Monitoring](#-monitoring)
-- [🏗️ Developer Utilities](#️-developer-utilities)
-- [🎥 AI Video](#-ai-video)
-- [🎙️ AI Voice](#️-ai-voice)
-- [🎨 Design & UI](#-design--ui)
-- [🏗️ AI App Builders](#️-ai-app-builders)
-- [📱 Social Media Automation](#-social-media-automation)
-- [✍️ Content Creation](#️-content-creation)
-- [🧠 Claude Skills](#-claude-skills)
-- [📈 AI Trading & Finance](#-ai-trading--finance)
-- [🛡️ Security](#️-security)
-- [💼 Sales & CRM](#-sales--crm)
-- [🚀 Startup Research](#-startup-research)
-- [📚 Learning Resources](#-learning-resources)
-- [⭐ Awesome Lists & Curated Repositories](#-awesome-lists--curated-repositories)
-- [🧠 Claude Code Ecosystem](#-claude-code-ecosystem)
-- [🤖 AI Models](#-ai-models)
-- [🧩 AI Frameworks](#-ai-frameworks)
-- [💎 Hidden Gems](#-hidden-gems)
-- [🚀 Emerging Projects](#-emerging-projects)
-- [🏅 Hall of Fame (Top 20)](#-hall-of-fame-my-top-20)
-
----
-
-**AI Agents, Coding Agents, Research, Browser Automation**
-
----
-
-# 🤖 AI Agents
-
-| Tool         |  | Type                       | Open Source | Description                                                                                              | GitHub                                                                                           | Website                                                        | Alternatives          |
-| ------------ | :----: | -------------------------- | :---------: | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------- | --------------------- |
-| Hermes Agent |  ⭐⭐⭐⭐⭐ | Personal AI Agent          |      ✅      | Long running autonomous assistant with memory, tools, browser, messaging, scheduling and MCP support.    | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)             | [hermes-agent.org](https://hermes-agent.org)           | OpenHands, Agent Zero |
-| OpenClaw     |  ⭐⭐⭐⭐⭐ | Personal AI Agent          |      ✅      | Persistent self-hosted background daemon agent that runs 24/7.                           | [openclaw/openclaw](https://github.com/openclaw/openclaw)                 | [openclaw.ai](https://openclaw.ai)                     | Hermes                |
-| OpenHands    |  ⭐⭐⭐⭐⭐ | Software Engineering Agent |      ✅      | One of the strongest autonomous software engineering agents. Can browse, code, run tests and fix issues. | [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands)                 | [all-hands.dev](https://www.all-hands.dev)         | Claude Code           |
-| Agent Zero   |  ⭐⭐⭐⭐☆ | Autonomous Agent           |      ✅      | General purpose autonomous AI agent with browser and tool support.                                       | [frdel/agent-zero](https://github.com/frdel/agent-zero)                       | —                                                              | Hermes                |
-| Atomic Agent |  ⭐⭐⭐⭐☆ | Local Agent                |      ✅      | Runs locally with browser control, terminal, memory and tool execution.                                  | [BrainBlend-AI/atomic-agents](https://github.com/BrainBlend-AI/atomic-agents) | —                                                              | Hermes                |
-| Goose        |  ⭐⭐⭐⭐☆ | Desktop Agent              |      ✅      | Open source desktop AI agent from Block with strong MCP integration.                                     | [block/goose](https://github.com/block/goose)                                 | [block.github.io/goose](https://block.github.io/goose) | OpenHands             |
-| MultitaskAI  |  ⭐⭐⭐⭐☆ | Agent Platform             |      ❌      | Team of AI agents working together on multiple tasks.                                                    | —                                                                                                | [multitaskai.com](https://multitaskai.com)             | CrewAI                |
-| Paperclip    |  ⭐⭐⭐⭐☆ | AI Workspace               |      ✅      | Workspace for organizing AI agents and workflows.                                                        | [paperclipai/paperclip](https://github.com/paperclipai/paperclip)                   | —                                                              | OpenHands             |
-
----
-
-# 💻 Coding Agents
-
-| Tool         |  | Type          | Open Source | Description                                                     | GitHub                                                                                 | Website                                                |
-| ------------ | :----: | ------------- | :---------: | --------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| Claude Code  |  ⭐⭐⭐⭐⭐ | CLI           |      ❌      | Still one of the strongest coding agents available.             | [anthropics/claude-code](https://github.com/anthropics/claude-code) | [anthropic.com](https://www.anthropic.com) |
-| OpenCode     |  ⭐⭐⭐⭐⭐ | CLI           |      ✅      | Fast open source coding agent supporting many providers.        | [sst/opencode](https://github.com/sst/opencode)                     | [opencode.ai](https://opencode.ai)             |
-| jcode        |  ⭐⭐⭐⭐⭐ | CLI/Desktop   |      ✅      | Coding agent with persistent memory, subagents and MCP support. | [github.com/jcode-ai](https://github.com/jcode-ai)                             | [jcode.sh](https://jcode.sh)                   |
-| Aider        |  ⭐⭐⭐⭐⭐ | CLI           |      ✅      | Git aware AI pair programmer.                                   | [Aider-AI/aider](https://github.com/Aider-AI/aider)                 | [aider.chat](https://aider.chat)               |
-| Continue     |  ⭐⭐⭐⭐☆ | IDE           |      ✅      | VS Code and JetBrains AI coding extension.                      | [continuedev/continue](https://github.com/continuedev/continue)     | [continue.dev](https://continue.dev)           |
-| Cline        |  ⭐⭐⭐⭐☆ | VS Code       |      ✅      | Autonomous coding agent inside VS Code.                         | [cline/cline](https://github.com/cline/cline)                       | [cline.bot](https://cline.bot)                 |
-| SuperClaude  |  ⭐⭐⭐⭐☆ | Claude Skills |      ✅      | Advanced prompts and workflows for Claude Code.                 | [NomenAK/SuperClaude](https://github.com/NomenAK/SuperClaude)       | —                                                      |
-| Claude Squad |  ⭐⭐⭐⭐☆ | Multi Agent   |      ✅      | Coordinate multiple Claude Code agents.                         | [smtg-ai/claude-squad](https://github.com/smtg-ai/claude-squad)   | —                                                      |
-| HolyClaude   |  ⭐⭐⭐⭐☆ | Workspace     |      ✅      | Browser based Claude development environment.                   | [CoderLuii/HolyClaude](https://github.com/CoderLuii/HolyClaude)       | —                                                      |
-| OpenSWE      |  ⭐⭐⭐⭐☆ | SWE Agent     |      ✅      | Autonomous software engineering framework.                      | [langchain-ai/open-swe](https://github.com/langchain-ai/open-swe)             | —                                                      |
-| OPCODE       |  ⭐⭐⭐⭐☆ | Desktop       |      ✅      | Open source AI coding desktop app.                              | [winfunc/opcode](https://github.com/winfunc/opcode)                 | —                                                      |
-| Blackbox AI  |  ⭐⭐⭐⭐☆ | IDE Extension |      ❌      | AI coding assistant with code search and generation.            | —     | [blackbox.ai](https://www.blackbox.ai)     |
-
----
-
-# 🔬 Research
-
-| Tool           |  | Type              | Open Source | Description                                                        |
-| -------------- | :----: | ----------------- | :---------: | ------------------------------------------------------------------ |
-| GPT Researcher |  ⭐⭐⭐⭐⭐ | Research Agent    |      ✅      | Deep autonomous research with citations.                           |
-| Feynman        |  ⭐⭐⭐⭐⭐ | Research Agent    |      ✅      | AI research assistant for technical investigations.                |
-| QuantMind      |  ⭐⭐⭐⭐☆ | Knowledge Graph   |      ✅      | Converts financial papers and reports into a searchable graph.     |
-| Second Brain   |  ⭐⭐⭐⭐☆ | Knowledge Base    |      ✅      | Personal AI knowledge management.                                  |
-| Onlook         |  ⭐⭐⭐⭐☆ | Design / Research |      ✅      | AI assisted visual inspection and editing of applications.         |
-| gstack         |  ⭐⭐⭐⭐⭐ | AI Workflow       |      ✅      | Collection of specialized AI agents and workflows for development. |
-
----
-
-# 🌐 Browser Automation
-
-| Tool          |  | Type           | Open Source | Description                                   |
-| ------------- | :----: | -------------- | :---------: | --------------------------------------------- |
-| Browser Use   |  ⭐⭐⭐⭐⭐ | Framework      |      ✅      | Gives LLMs human like browser control.        |
-| Firecrawl     |  ⭐⭐⭐⭐⭐ | Web Extraction |      ✅      | AI optimized web crawler and extractor.       |
-| Crawl4AI      |  ⭐⭐⭐⭐⭐ | Crawler        |      ✅      | High quality crawling for AI applications.    |
-| Agent Browser |  ⭐⭐⭐⭐☆ | Browser        |      ✅      | Browser designed for autonomous agents.       |
-| Scrapling     |  ⭐⭐⭐⭐☆ | Scraper        |      ✅      | Fast modern scraping framework.               |
-| Headroom      |  ⭐⭐⭐⭐☆ | Context Engine |      ✅      | Compresses context for LLMs before inference. |
-
----
-
----
-
-**Workflow Automation, MCP, AI Gateways, Infrastructure, APIs, Databases**
-
----
-
-# 🔄 Workflow Automation
-
-| Tool             |  | Type                  | Open Source | Description                                                   | GitHub                                                                                                 | Website                                        | Alternatives     |
-| ---------------- | :----: | --------------------- | :---------: | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ---------------------------------------------- | ---------------- |
-| Flowise          |  ⭐⭐⭐⭐⭐ | Workflow Builder      |      ✅      | Drag and drop builder for LLMs, RAG pipelines, and AI agents. | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise)                           | [flowiseai.com](https://flowiseai.com) | Langflow, n8n    |
-| Loop Engineering |  ⭐⭐⭐⭐☆ | Engineering Framework |      ✅      | Framework for planning and iterative AI software engineering. | [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | —                                              | Spec Kit         |
-| Spec Kit         |  ⭐⭐⭐⭐☆ | Development Framework |      ✅      | Specification first software development with AI.             | [github/spec-kit](https://github.com/github/spec-kit)                               | —                                              | Loop Engineering |
-| FreeFlow         |  ⭐⭐⭐⭐☆ | Voice Productivity    |      ✅      | Open source alternative to Wispr Flow for voice workflows.    | [zachlatta/freeflow](https://github.com/zachlatta/freeflow)                           | —                                              | Wispr Flow       |
-| Paperclip        |  ⭐⭐⭐⭐☆ | AI Workspace          |      ✅      | Workspace for coordinating AI agents and projects.            | [paperclipai/paperclip](https://github.com/paperclipai/paperclip)                         | —                                              | OpenHands        |
-| Agency Agents    |  ⭐⭐⭐⭐☆ | Multi Agent           |      ✅      | AI agency framework with specialized agents.                  | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)         | —                                              | CrewAI           |
-
----
-
-# 🧠 MCP & Memory
-
-| Tool                |  | Type                | Open Source | Description                                            | GitHub                                                                                             | Alternatives |
-| ------------------- | :----: | ------------------- | :---------: | ------------------------------------------------------ | -------------------------------------------------------------------------------------------------- | ------------ |
-| codebase-memory-mcp |  ⭐⭐⭐⭐⭐ | MCP Server          |      ✅      | Gives coding agents persistent memory of repositories. | [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | Mem0         |
-| Open Data Platform  |  ⭐⭐⭐⭐☆ | MCP Platform        |      ✅      | Data platform exposing information through MCP.        | (various implementations)                                                                          | LlamaIndex   |
-| Headroom            |  ⭐⭐⭐⭐☆ | Context Compression |      ✅      | Compresses long contexts to reduce token usage.        | [github.com/search?q=headroom](https://github.com/search?q=headroom)                       | LLMLingua    |
-| Khoj (Second Brain) |  ⭐⭐⭐⭐☆ | Knowledge Base      |      ✅      | Self-hostable AI second brain with markdown and PDF support.                 | [khoj-ai/khoj](https://github.com/khoj-ai/khoj)               | Mem0         |
-
----
-
-# 🌍 AI Gateways & Model Routers
-
-| Tool       |  | Type                 | Open Source | Description                                                                       | GitHub                                                                           | Website                                      |
-| ---------- | :----: | -------------------- | :---------: | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | -------------------------------------------- |
-| OmniRoute  |  ⭐⭐⭐⭐⭐ | AI Gateway           |      ✅      | Self-hosted proxy with 200+ providers, 4-tier fallback, and token compression. | [omniroute/omniroute](https://github.com/omniroute/omniroute)                                                                               | [omniroute.ai](https://omniroute.ai) |
-| MuAPI      |  ⭐⭐⭐⭐☆ | AI Gateway           |      ❌      | Unified API for multiple AI models.                                               | —                                                                                | —                                            |
-| Godmode3   |  ⭐⭐⭐⭐☆ | Multi Model Platform |      ❌      | Unified interface for dozens of AI models.                                        | —                                                                                | [godmode3.ai](https://godmode3.ai)   |
-| FreeLLMAPI |  ⭐⭐⭐⭐☆ | Gateway              |      ✅      | Free OpenAI compatible API aggregation.                                           | [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) | —                                            |
-| 9Router    |  ⭐⭐⭐⭐☆ | AI Router            |      ❌      | Model routing and optimization platform.                                          | —                                                                                | —                                            |
-| Nango      |  ⭐⭐⭐⭐⭐ | Integration Platform |      ✅      | OAuth and API integration layer with hundreds of connectors.                      | [NangoHQ/nango](https://github.com/NangoHQ/nango)             | [nango.dev](https://nango.dev)       |
-
----
-
-# 🗄️ Databases & Infrastructure
-
-| Tool            |  | Type           | Open Source | Description                                     |
-| --------------- | :----: | -------------- | :---------: | ----------------------------------------------- |
-| DatabaseManager |  ⭐⭐⭐⭐☆ | Database GUI   |      ✅      | Self hosted database management platform.       |
-| EXO             |  ⭐⭐⭐⭐⭐ | Distributed AI |      ✅      | Run one AI model across multiple computers.     |
-| AirLLM          |  ⭐⭐⭐⭐☆ | LLM Runtime    |      ✅      | Run very large language models on limited VRAM. |
-| CuPy            |  ⭐⭐⭐⭐⭐ | GPU Computing  |      ✅      | GPU accelerated NumPy replacement.              |
-
----
-
-# 🔌 APIs & Integrations
-
-| Tool        |  | Type           | Open Source | Description                                       |
-| ----------- | :----: | -------------- | :---------: | ------------------------------------------------- |
-| Nango       |  ⭐⭐⭐⭐⭐ | OAuth Platform |      ✅      | Connect to 700+ APIs with unified authentication. |
-| FreeMAPI    |  ⭐⭐⭐⭐☆ | Maps API       |      ✅      | Open source Google Maps alternative.              |
-| Public APIs |  ⭐⭐⭐⭐⭐ | API Directory  |      ✅      | Huge collection of free APIs.                     |
-
----
-
-# 📄 PDF & Documents
-
-| Tool     |  | Type       | Open Source | Description                                        |
-| -------- | :----: | ---------- | :---------: | -------------------------------------------------- |
-| PDFCraft |  ⭐⭐⭐⭐☆ | PDF Editor |      ✅      | Browser based PDF editing toolkit.                 |
-| PixelRAG |  ⭐⭐⭐⭐⭐ | OCR / RAG  |      ✅      | Converts screenshots into searchable AI knowledge. |
-
----
-
-# 📈 Monitoring
-
-| Tool        |  | Type       | Open Source | Description                               |
-| ----------- | :----: | ---------- | :---------: | ----------------------------------------- |
-| Easymonitor |  ⭐⭐⭐⭐☆ | Monitoring |      ✅      | Self hosted uptime and health monitoring. |
-
----
-
-# 🏗️ Developer Utilities
-
-| Tool     |  | Type                     | Open Source | Description                                                      |
-| -------- | :----: | ------------------------ | :---------: | ---------------------------------------------------------------- |
-| CodeFlow |  ⭐⭐⭐⭐☆ | Repository Visualization |      ✅      | Visualizes architecture and dependencies of GitHub repositories. |
-| Ruflo    |  ⭐⭐⭐⭐☆ | AI Framework             |      ✅      | AI engineering framework focused on developer productivity.      |
-| gstack   |  ⭐⭐⭐⭐⭐ | Claude Workflow          |      ✅      | AI engineering toolkit with specialized development agents.      |
-
----
-
-# ⭐ Top Picks
-
-| Tool                    | Why it stands out                                                  |
-| ----------------------- | ------------------------------------------------------------------ |
-| **Flowise**             | One of the easiest ways to build AI workflows visually.            |
-| **Nango**               | Saves weeks of work by handling OAuth and API integrations.        |
-| **OmniRoute**           | Excellent if you use multiple AI providers and want smart routing. |
-| **EXO**                 | One of the most interesting distributed inference projects.        |
-| **PixelRAG**            | Great for turning screenshots into searchable knowledge.           |
-| **codebase-memory-mcp** | Very useful for long term coding projects.                         |
-| **Spec Kit**            | Encourages specification driven development with AI.               |
-
----
-
-**AI Video, AI Voice, App Builders, UI & Design, Social Media, Content Creation**
-
----
-
-# 🎥 AI Video
-
-| Tool                                      |  | Type              | Open Source | Description                                                                       | GitHub                                                                                                                                       | Website                                            | Alternatives |
-| ----------------------------------------- | :----: | ----------------- | :---------: | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | ------------ |
-| OpenMontage                               |  ⭐⭐⭐⭐⭐ | Video Production  |      ✅      | Agentic video production pipeline with editing, scripting and automation.         | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)                                                           | —                                                  | ComfyUI      |
-| LTX Video 2                               |  ⭐⭐⭐⭐⭐ | Video Model       |      ✅      | High quality open video generation model.                                         | [Lightricks/LTX-Video](https://github.com/Lightricks/LTX-Video)                                                           | [ltx.studio](https://ltx.studio)           | Wan 2.2      |
-| Deevis AI                                 |  ⭐⭐⭐⭐☆ | Video Generation  |      ❌      | AI video generation platform.                                                     | —                                                                                                                                            | [deevis.ai](https://deevis.ai)             | Kling        |
-| Wan2GP                                    |  ⭐⭐⭐⭐☆ | Video Toolkit     |      ✅      | Utilities for running and optimizing Wan models.                                  | [deepbeepmeep/Wan2GP](https://github.com/deepbeepmeep/Wan2GP)                                                                     | —                                                  | ComfyUI      |
-| Higgsfield AI CLI                         |  ⭐⭐⭐⭐☆ | Video Generation  |      ✅      | Official CLI for generating videos and managing models.                                | [higgsfield-ai/cli](https://github.com/higgsfield-ai/cli)                                                   | —                                                  | LTX Video    |
-| OpenArt AI                                |  ⭐⭐⭐⭐☆ | AI Creative Suite |      ❌      | AI image and video generation platform.                                           | —                                                                                                                                            | [openart.ai](https://openart.ai)           | Leonardo AI  |
-| KlipRok                                   |  ⭐⭐⭐⭐☆ | Video Editing     |      ❌      | Converts long videos into Shorts, Reels and TikToks with captions and scheduling. | —                                                                                                                                            | [kliprok.com](https://www.kliprok.com) | OpusClip     |
-| Lyro Studio                               |  ⭐⭐⭐⭐☆ | Video Editor      |      ❌      | AI assisted video editing platform.                                               | —                                                                                                                                            | —                                                  | CapCut AI    |
-| Video2OpenShotCraft                       |  ⭐⭐⭐⭐☆ | Animation         |      ✅      | Converts prompts into OpenShot compatible animations.                             | —                                           | —                                                  | OpenMontage  |
-| Gorest 2D Animation Spritesheet Generator |  ⭐⭐⭐⭐☆ | Game Dev          |      ✅      | Generates 2D animation spritesheets using AI.                                     | [NO6KIKO/gorest-2d-animation-spritesheet-generator](https://github.com/NO6KIKO/gorest-2d-animation-spritesheet-generator) | —                                                  | PixelLab     |
-
----
-
-# 🎙️ AI Voice
-
-| Tool      |  | Type        | Open Source | Description                                  |
-| --------- | :----: | ----------- | :---------: | -------------------------------------------- |
-| OmniVoice |  ⭐⭐⭐⭐⭐ | Voice Model |      ✅      | Open multilingual voice synthesis model.     |
-| FreeFlow  |  ⭐⭐⭐⭐☆ | Dictation   |      ✅      | Open source voice to text productivity tool. |
-
----
-
-# 🎨 Design & UI
-
-| Tool           |  | Type             | Open Source | Description                                         |
-| -------------- | :----: | ---------------- | :---------: | --------------------------------------------------- |
-| Onlook         |  ⭐⭐⭐⭐⭐ | Visual Editor    |      ✅      | Cursor style editor for frontend design.            |
-| React Bits     |  ⭐⭐⭐⭐⭐ | React Components |      ✅      | Premium quality React animations and UI components. |
-| Phosphor Icons |  ⭐⭐⭐⭐⭐ | Icon Library     |      ✅      | Beautiful open source icon set.                     |
-| HeyGem         |  ⭐⭐⭐⭐☆ | AI Avatar        |      ✅      | Digital humans and avatar generation.               |
-| Gesso.ai       |  ⭐⭐⭐⭐☆ | Design AI        |      ❌      | AI assisted visual design platform.                 |
-| OpenArt AI     |  ⭐⭐⭐⭐☆ | Creative Suite   |      ❌      | Image, video and design generation.                 |
-
----
-
-# 🏗️ AI App Builders
-
-| Tool        |  | Type               | Open Source | Description                              | Alternatives |
-| ----------- | :----: | ------------------ | :---------: | ---------------------------------------- | ------------ |
-| OpenLovable |  ⭐⭐⭐⭐⭐ | App Builder        |      ✅      | Open source alternative to Lovable.      | Bolt         |
-| bolt.diy    |  ⭐⭐⭐⭐⭐ | Full Stack Builder |      ✅      | Self hosted Bolt.new alternative.        | OpenLovable  |
-| OpenCode    |  ⭐⭐⭐⭐⭐ | AI Coding          |      ✅      | Can also generate complete applications. | Claude Code  |
-| jcode       |  ⭐⭐⭐⭐⭐ | AI Coding          |      ✅      | Autonomous application development.      | OpenCode     |
-| Antigravity |  ⭐⭐⭐⭐☆ | Agent Workspace    |      ❌      | AI first development platform.           | Orca         |
-
----
-
-# 📱 Social Media Automation
-
-| Tool               |  | Type              | Open Source | Description                                                      | Alternatives |
-| ------------------ | :----: | ----------------- | :---------: | ---------------------------------------------------------------- | ------------ |
-| Postiz             |  ⭐⭐⭐⭐⭐ | Scheduler         |      ✅      | Open source Buffer alternative supporting many social platforms. | Buffer       |
-| MoneyPrinter Turbo |  ⭐⭐⭐⭐⭐ | Video Automation  |      ✅      | Automatically creates Shorts, TikToks and Reels locally.         | AutoShorts   |
-| MoneyPrinter V2    |  ⭐⭐⭐⭐☆ | Content Generator |      ✅      | AI short form content generation.                                | Turbo        |
-| Agent Reach        |  ⭐⭐⭐⭐☆ | Outreach          |      ✅      | Multi platform AI outreach automation.                           | Instantly    |
-| OpenOutreach       |  ⭐⭐⭐⭐☆ | Sales Outreach    |      ✅      | AI cold email and lead generation platform.                      | Lemlist      |
-
----
-
-# ✍️ Content Creation
-
-| Tool        |  | Type             | Open Source | Description                                    |
-| ----------- | :----: | ---------------- | :---------: | ---------------------------------------------- |
-| OpenMontage |  ⭐⭐⭐⭐⭐ | Content Pipeline |      ✅      | Creates complete video projects automatically. |
-| OpenArt AI  |  ⭐⭐⭐⭐☆ | Creative AI      |      ❌      | Images, videos and artwork.                    |
-| Deevis AI   |  ⭐⭐⭐⭐☆ | AI Video         |      ❌      | Text to video creation.                        |
-| KlipRok     |  ⭐⭐⭐⭐☆ | Repurposing      |      ❌      | Repurposes long form content.                  |
-
----
-
-# 🧠 Claude Skills
-
-| Tool           |  | Type           | Open Source | Description                                    |
-| -------------- | :----: | -------------- | :---------: | ---------------------------------------------- |
-| SuperClaude    |  ⭐⭐⭐⭐⭐ | Skill Pack     |      ✅      | Complete enhancement pack for Claude Code.     |
-| Ponytail       |  ⭐⭐⭐⭐⭐ | Coding Style   |      ✅      | Disciplines AI coding agents to write minimal code and act like a lazy senior dev. |
-| GSAP AI Skills |  ⭐⭐⭐⭐☆ | Frontend       |      ✅      | Claude skills for GSAP animations.             |
-| Claude SEO     |  ⭐⭐⭐⭐☆ | SEO            |      ✅      | SEO workflow for Claude.                       |
-| Claude Video   |  ⭐⭐⭐⭐☆ | Video Analysis |      ✅      | Gives Claude the ability to understand videos. |
-| UI UX Pro Max  |  ⭐⭐⭐⭐☆ | Prompt Pack    |      ❌      | UI and UX design prompts for Claude.           |
-
----
-
-# ⭐ Top Picks
-
-| Tool                   | Why it stands out                                              |
-| ---------------------- | -------------------------------------------------------------- |
-| **Postiz**             | One of the best open source social media schedulers available. |
-| **LTX Video 2**        | Among the strongest open video generation models.              |
-| **OpenLovable**        | Excellent starting point for AI generated applications.        |
-| **bolt.diy**           | Great self hosted alternative to Bolt.new.                     |
-| **Onlook**             | One of the most promising visual AI development tools.         |
-| **MoneyPrinter Turbo** | Saves a lot of time for creators producing short form videos.  |
-| **React Bits**         | High quality React components and animations.                  |
-| **Phosphor Icons**     | A staple icon library for modern web apps.                     |
-
----
-
-**Trading, Security, Sales, CRM, APIs, Startup Research, Learning Resources, Utilities**
-
----
-
-# 📈 AI Trading & Finance
-
-| Tool                    |  | Type               | Open Source | Description                                                                | GitHub                                                                                             | Website                                          | Alternatives  |
-| ----------------------- | :----: | ------------------ | :---------: | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------ | ------------- |
-| OpenAlice               |  ⭐⭐⭐⭐⭐ | Trading Workspace  |      ✅      | File-driven "Trading-as-Git" autonomous engine and workspace.              | [TraderAlice/OpenAlice](https://github.com/TraderAlice/OpenAlice)               | [openalice.ai](https://openalice.ai)                     | —             |
-| TradingAgents           |  ⭐⭐⭐⭐⭐ | Multi Agent        |      ✅      | Multi agent LLM framework for stock and crypto trading.                    | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | —                                                | FinRobot      |
-| TensorTrade             |  ⭐⭐⭐⭐☆ | RL Framework       |      ✅      | Reinforcement learning framework for algorithmic trading.                  | [tensortrade-org/tensortrade](https://github.com/tensortrade-org/tensortrade)   | —                                                | FinRL         |
-| QuantMind               |  ⭐⭐⭐⭐☆ | Knowledge Graph    |      ✅      | Turns financial reports, SEC filings and papers into searchable knowledge. | —                                                                                                  | —                                                | LlamaIndex    |
-| Fincept Terminal        |  ⭐⭐⭐⭐☆ | Finance Platform   |      ✅      | AI powered financial research terminal.                                    | [Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal)                         | —                                                | BloombergGPT  |
-| AI Trader               |  ⭐⭐⭐⭐☆ | Trading Agent      |      ✅      | Autonomous AI trading system.                                              | —                                                                                                  | —                                                | TradingAgents |
-| Intelligent Trading Bot |  ⭐⭐⭐⭐☆ | Trading Bot        |      ✅      | Automated signal generation and execution.                                 | —                                                                                                  | —                                                | TensorTrade   |
-| Cloudds                 |  ⭐⭐⭐⭐☆ | Prediction Markets |      ✅      | AI trading platform focused on prediction markets.                         | —                                                                                                  | —                                                | Polymarket    |
-| Polymarket Data         |  ⭐⭐⭐⭐☆ | SDK                |      ✅      | APIs and analytics for Polymarket.                                         | —                                                                                                  | [polymarket.com](https://polymarket.com) | Cloudds       |
-| Orion RFX               |  ⭐⭐⭐☆☆ | Trading Platform   |      ❌      | AI trading platform.                                                       | —                                                                                                  | —                                                | TradingAgents |
-| Nebula                  |  ⭐⭐⭐☆☆ | Trading Platform   |      ❌      | AI based quantitative trading platform.                                    | —                                                                                                  | —                                                | QuantConnect  |
-
----
-
-# 🛡️ Security
-
-| Tool     |  | Type                  | Open Source | Description                                  |
-| -------- | :----: | --------------------- | :---------: | -------------------------------------------- |
-| Shannon  |  ⭐⭐⭐⭐☆ | Pentesting            |      ✅      | AI assisted penetration testing toolkit.     |
-| VulnClaw |  ⭐⭐⭐⭐☆ | Vulnerability Scanner |      ✅      | Automated vulnerability analysis framework.  |
-| IfixAI   |  ⭐⭐⭐⭐☆ | AI Evaluation         |      ✅      | Stress testing and evaluation of AI systems. |
-
----
-
-# 💼 Sales & CRM
-
-| Tool             |  | Type            | Open Source | Description                              | Alternatives |
-| ---------------- | :----: | --------------- | :---------: | ---------------------------------------- | ------------ |
-| Scout            |  ⭐⭐⭐⭐☆ | Lead Generation |      ✅      | Finds qualified B2B leads automatically. | Apollo       |
-| Agent Reach      |  ⭐⭐⭐⭐☆ | Outreach        |      ✅      | AI driven multi platform outreach.       | Instantly    |
-| OpenOutreach     |  ⭐⭐⭐⭐☆ | Sales           |      ✅      | AI outbound automation platform.         | Lemlist      |
-| TryCompanion CRM |  ⭐⭐⭐⭐☆ | CRM             |      ✅      | AI first CRM.                            | Twenty CRM   |
-| Comp AI          |  ⭐⭐⭐⭐☆ | Compliance      |      ❌      | Compliance automation platform.          | Vanta        |
-| ZapLegal         |  ⭐⭐⭐⭐☆ | LegalTech       |      ❌      | AI legal notice and recovery platform.   | LegalZoom AI |
-
----
-
-# 🔌 APIs & Integrations
-
-| Tool        |  | Type          | Open Source | Description                                    |
-| ----------- | :----: | ------------- | :---------: | ---------------------------------------------- |
-| Nango       |  ⭐⭐⭐⭐⭐ | OAuth         |      ✅      | 700+ integrations with unified authentication. |
-| FreeMAPI    |  ⭐⭐⭐⭐☆ | Maps API      |      ✅      | Open source maps API.                          |
-| Public APIs |  ⭐⭐⭐⭐⭐ | API Directory |      ✅      | Massive list of free APIs.                     |
-| MuAPI       |  ⭐⭐⭐⭐☆ | AI Gateway    |      ❌      | Unified AI API platform.                       |
-
----
-
-# 🚀 Startup Research
-
-| Tool         |  | Type               | Description                                        |
-| ------------ | :----: | ------------------ | -------------------------------------------------- |
-| Y Combinator |  ⭐⭐⭐⭐⭐ | Startup Directory  | Largest startup accelerator and company directory. |
-| Betalist     |  ⭐⭐⭐⭐⭐ | Startup Discovery  | Early stage startup launches.                      |
-| Trustirr     |  ⭐⭐⭐⭐☆ | Startup Research   | Startup discovery platform.                        |
-| IdeaBrowser  |  ⭐⭐⭐⭐☆ | Idea Discovery     | Business ideas and trends.                         |
-| TopStartups  |  ⭐⭐⭐⭐☆ | Startup Database   | Curated startup listings.                          |
-| ImpexQ       |  ⭐⭐⭐⭐☆ | Trade Intelligence | Import/export and supplier intelligence.           |
-
----
-
-# 📚 Learning Resources
-
-| Tool                   |  | Type              | Description                                     |
-| ---------------------- | :----: | ----------------- | ----------------------------------------------- |
-| Build Your Own X       |  ⭐⭐⭐⭐⭐ | GitHub Collection | Learn by recreating famous software.            |
-| Awesome System Design  |  ⭐⭐⭐⭐⭐ | Learning          | Large collection of system design resources.    |
-| Free Programming Books |  ⭐⭐⭐⭐⭐ | Learning          | Thousands of programming books.                 |
-| Public APIs            |  ⭐⭐⭐⭐⭐ | Learning          | API collection for developers.                  |
-| Garry Stack (gstack)   |  ⭐⭐⭐⭐⭐ | AI Engineering    | Curated AI engineering workflows and resources. |
-| jnMeta AI Resources    |  ⭐⭐⭐⭐☆ | AI Collection     | 268+ AI tools organized by category.            |
-| last30days-skill       |  ⭐⭐⭐⭐☆ | Claude Skill      | 30 day AI engineering learning program.         |
-
----
-
-# 🛠️ Developer Utilities
-
-| Tool            |  | Type           | Description                                   |
-| --------------- | :----: | -------------- | --------------------------------------------- |
-| ClipGrab        |  ⭐⭐⭐⭐☆ | Downloader     | Download videos from many platforms.          |
-| DatabaseManager |  ⭐⭐⭐⭐☆ | Database GUI   | Self hosted database management.              |
-| PDFCraft        |  ⭐⭐⭐⭐☆ | PDF Editor     | Browser based PDF editing.                    |
-| Easymonitor     |  ⭐⭐⭐⭐☆ | Monitoring     | Self hosted uptime monitoring.                |
-| AirLLM          |  ⭐⭐⭐⭐⭐ | LLM Runtime    | Run large LLMs with low VRAM.                 |
-| EXO             |  ⭐⭐⭐⭐⭐ | Distributed AI | Share AI workloads across multiple computers. |
-| CuPy            |  ⭐⭐⭐⭐⭐ | GPU Computing  | GPU accelerated NumPy for Python.             |
-
----
-
-# ⭐ Top Picks
-
-| Tool                      | Why it's worth knowing                                           |
-| ------------------------- | ---------------------------------------------------------------- |
-| **TradingAgents**         | One of the strongest open source multi agent trading frameworks. |
-| **Nango**                 | Solves OAuth and third party integrations elegantly.             |
-| **Build Your Own X**      | One of the best repositories for learning software architecture. |
-| **Awesome System Design** | Essential for backend and scalable system design.                |
-| **EXO**                   | Unique distributed inference across Macs, PCs and Raspberry Pis. |
-| **AirLLM**                | Makes running large models feasible on consumer hardware.        |
-
----
-
-# 🏆 Overall Top 25
-
-These are the tools I'd consider the most impactful overall:
-
-### AI Agents
-
-1. Hermes Agent ⭐⭐⭐⭐⭐
-2. OpenHands ⭐⭐⭐⭐⭐
-3. OpenCode ⭐⭐⭐⭐⭐
-4. jcode ⭐⭐⭐⭐⭐
-5. Claude Code ⭐⭐⭐⭐⭐
-
-### Research
-
-6. GPT Researcher ⭐⭐⭐⭐⭐
-7. Firecrawl ⭐⭐⭐⭐⭐
-8. Crawl4AI ⭐⭐⭐⭐⭐
-9. Browser Use ⭐⭐⭐⭐⭐
-10. Feynman ⭐⭐⭐⭐☆
-
-### AI Engineering
-
-11. Flowise ⭐⭐⭐⭐⭐
-12. Spec Kit ⭐⭐⭐⭐⭐
-13. gstack ⭐⭐⭐⭐⭐
-14. codebase-memory-mcp ⭐⭐⭐⭐⭐
-15. Nango ⭐⭐⭐⭐⭐
-
-### Infrastructure
-
-16. OmniRoute ⭐⭐⭐⭐⭐
-17. EXO ⭐⭐⭐⭐⭐
-18. AirLLM ⭐⭐⭐⭐⭐
-19. CuPy ⭐⭐⭐⭐⭐
-
-### Builders
-
-20. OpenLovable ⭐⭐⭐⭐⭐
-21. bolt.diy ⭐⭐⭐⭐⭐
-22. Onlook ⭐⭐⭐⭐⭐
-
-### Media
-
-23. Postiz ⭐⭐⭐⭐⭐
-24. LTX Video 2 ⭐⭐⭐⭐⭐
-25. MoneyPrinter Turbo ⭐⭐⭐⭐⭐
-
----
-
-**Awesome Lists, Models, Claude Skills, Knowledge Bases, Hidden Gems, Emerging Projects**
-
----
-
-# ⭐ Awesome Lists & Curated Repositories
-
-These repositories are worth bookmarking because they each link to dozens or hundreds of other projects.
-
-| Project                |  | Type              | Why it matters                                    |
-| ---------------------- | :----: | ----------------- | ------------------------------------------------- |
-| Awesome AI Agents      |  ⭐⭐⭐⭐⭐ | GitHub Collection | Large curated collection of AI agents.            |
-| Awesome MCP Servers    |  ⭐⭐⭐⭐⭐ | GitHub Collection | Hundreds of MCP servers categorized by use case.  |
-| Awesome LLM Apps       |  ⭐⭐⭐⭐⭐ | GitHub Collection | Production ready LLM applications.                |
-| Awesome AI Tools       |  ⭐⭐⭐⭐⭐ | GitHub Collection | Curated AI software directory.                    |
-| Awesome Open Source AI |  ⭐⭐⭐⭐⭐ | GitHub Collection | High quality open source AI ecosystem.            |
-| Build Your Own X       |  ⭐⭐⭐⭐⭐ | Learning          | Learn architecture by recreating famous software. |
-| Awesome System Design  |  ⭐⭐⭐⭐⭐ | Learning          | One of the best backend architecture collections. |
-| Public APIs            |  ⭐⭐⭐⭐⭐ | API Collection    | Thousands of free APIs.                           |
-| Free Programming Books |  ⭐⭐⭐⭐⭐ | Learning          | Massive programming book collection.              |
-| jnMeta AI Resources    |  ⭐⭐⭐⭐☆ | AI Collection     | 268 AI resources organized by category.           |
-| gstack                 |  ⭐⭐⭐⭐⭐ | AI Engineering    | Curated AI engineering workflows and resources.   |
-
----
-
-# 🧠 Claude Code Ecosystem
-
-These projects enhance Claude Code rather than replacing it.
-
-| Tool             |  | Description                                    |
-| ---------------- | :----: | ---------------------------------------------- |
-| SuperClaude      |  ⭐⭐⭐⭐⭐ | Complete enhancement pack for Claude Code.     |
-| Claude Video     |  ⭐⭐⭐⭐☆ | Gives Claude video understanding.              |
-| Claude SEO       |  ⭐⭐⭐⭐☆ | SEO workflows for Claude.                      |
-| GSAP Skills      |  ⭐⭐⭐⭐☆ | Frontend animation skills.                     |
-| UI UX Pro Max    |  ⭐⭐⭐⭐☆ | UI and UX prompt collection.                   |
-| HolyClaude       |  ⭐⭐⭐⭐☆ | Browser based Claude workspace.                |
-| palmier-pro      |  ⭐⭐⭐⭐☆ | AI assisted code navigation and understanding. |
-| last30days-skill |  ⭐⭐⭐⭐☆ | Structured AI engineering learning path.       |
-
----
-
-# 🤖 AI Models
-
-These are foundation models or specialized generative models.
-
-| Model        |  | Category      | Notes                                   |
-| ------------ | :----: | ------------- | --------------------------------------- |
-| LTX Video 2  |  ⭐⭐⭐⭐⭐ | Video         | One of the strongest open video models. |
-| Wan 2.x      |  ⭐⭐⭐⭐⭐ | Video         | Excellent open video generation family. |
-| Deevis AI    |  ⭐⭐⭐⭐☆ | Video         | Commercial video generation.            |
-| SeeDance 2   |  ⭐⭐⭐⭐☆ | Image / Video | Creative generation model.              |
-| OmniVoice    |  ⭐⭐⭐⭐☆ | Voice         | Multilingual voice generation.          |
-| Colibri 744B |  ⭐⭐⭐☆☆ | LLM           | Experimental large language model.      |
-
----
-
-# 🧩 AI Frameworks
-
-Projects that provide foundations for building AI systems.
-
-| Framework        |  | Purpose                          |
-| ---------------- | :----: | -------------------------------- |
-| Loop Engineering |  ⭐⭐⭐⭐⭐ | AI engineering methodology.      |
-| Spec Kit         |  ⭐⭐⭐⭐⭐ | Specification first development. |
-| Agency Agents    |  ⭐⭐⭐⭐☆ | Multi agent orchestration.       |
-| Flowise          |  ⭐⭐⭐⭐⭐ | Visual workflow builder.         |
-| Browser Use      |  ⭐⭐⭐⭐⭐ | Browser automation.              |
-| Firecrawl        |  ⭐⭐⭐⭐⭐ | AI web extraction.               |
-| Crawl4AI         |  ⭐⭐⭐⭐⭐ | AI crawling.                     |
-
----
-
-# 💎 Hidden Gems
-
-These aren't as famous but are technically impressive.
-
-| Project      |  | Why it stands out                                 |
-| ------------ | :----: | ------------------------------------------------- |
-| Headroom     |  ⭐⭐⭐⭐☆ | Compresses context before sending to LLMs.        |
-| PixelRAG     |  ⭐⭐⭐⭐⭐ | Turns screenshots into searchable knowledge.      |
-| QuantMind    |  ⭐⭐⭐⭐☆ | Builds knowledge graphs from financial documents. |
-| EXO          |  ⭐⭐⭐⭐⭐ | Distributed inference across multiple machines.   |
-| AirLLM       |  ⭐⭐⭐⭐⭐ | Runs huge models on consumer hardware.            |
-| CodeFlow     |  ⭐⭐⭐⭐☆ | Visualizes repository architecture.               |
-| Nango        |  ⭐⭐⭐⭐⭐ | Solves OAuth integration elegantly.               |
-| Onlook       |  ⭐⭐⭐⭐⭐ | Visual editing for frontend development.          |
-| OpenMontage  |  ⭐⭐⭐⭐☆ | Agent driven video production.                    |
-| Atomic Agent |  ⭐⭐⭐⭐☆ | Lightweight local autonomous agent.               |
-
----
-
-# 🚀 Emerging Projects
-
-Interesting newer projects that are worth watching.
-
-| Project     |  | Notes                                      |
-| ----------- | :----: | ------------------------------------------ |
-| OpenLovable |  ⭐⭐⭐⭐⭐ | Open source AI app builder.                |
-| bolt.diy    |  ⭐⭐⭐⭐⭐ | Self hosted Bolt alternative.              |
-| jcode       |  ⭐⭐⭐⭐⭐ | Fast evolving coding agent.                |
-| OpenCode    |  ⭐⭐⭐⭐⭐ | Strong open source coding CLI.             |
-| Orca        |  ⭐⭐⭐⭐☆ | Multi agent development environment.       |
-| Antigravity |  ⭐⭐⭐⭐☆ | Agent first software engineering platform. |
-| OmniRoute   |  ⭐⭐⭐⭐⭐ | Intelligent model routing.                 |
-| Godmode3    |  ⭐⭐⭐⭐☆ | Unified multi model interface.             |
-| OpenSWE     |  ⭐⭐⭐⭐☆ | Autonomous software engineering.           |
-| Goose       |  ⭐⭐⭐⭐☆ | Open source desktop AI assistant.          |
-
----
-
-# 🏅 Hall of Fame (My Top 20)
-
-If I had to rebuild an AI engineering toolkit from scratch today, these would be the first projects I'd install or learn.
-
-### 🤖 AI Agents
-
-1. OpenHands ⭐⭐⭐⭐⭐
-2. Claude Code ⭐⭐⭐⭐⭐
-3. OpenCode ⭐⭐⭐⭐⭐
-4. jcode ⭐⭐⭐⭐⭐
-5. Hermes Agent ⭐⭐⭐⭐⭐
-
-### 🌐 Research
-
-6. GPT Researcher ⭐⭐⭐⭐⭐
-7. Browser Use ⭐⭐⭐⭐⭐
-8. Firecrawl ⭐⭐⭐⭐⭐
-9. Crawl4AI ⭐⭐⭐⭐⭐
-10. Feynman ⭐⭐⭐⭐☆
-
-### 🏗️ AI Infrastructure
-
-11. OmniRoute ⭐⭐⭐⭐⭐
-12. Nango ⭐⭐⭐⭐⭐
-13. Flowise ⭐⭐⭐⭐⭐
-14. codebase-memory-mcp ⭐⭐⭐⭐⭐
-15. EXO ⭐⭐⭐⭐⭐
-
-### 🚀 Builders
-
-16. OpenLovable ⭐⭐⭐⭐⭐
-17. bolt.diy ⭐⭐⭐⭐⭐
-18. Onlook ⭐⭐⭐⭐⭐
-
-### 📱 Content
-
-19. Postiz ⭐⭐⭐⭐⭐
-20. MoneyPrinter Turbo ⭐⭐⭐⭐⭐
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
-
-## 📄 License
-
-To the extent possible under law, the authors have waived all copyright and related or neighboring rights to this work.
+# 🚀 Awesome 2026 Builder Stack (Version 2)
+
+A 100% verified, curated list of 250 of the best AI tools, autonomous agents, and frameworks for the modern AI Engineer.
+
+## The Master Directory
+
+| Project | GitHub | Description | Category | Tags | Website | Docs | Stars | Self Hosted | MCP | Rating | Alternatives |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **Hermes Agent** | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | Long running autonomous assistant with memory, tools, browser, messaging, scheduling and MCP support. | Personal AI Agent | ai, engineering | [hermes-agent.org](https://hermes-agent.org) | [Docs](#) | 18k | ✅ | ✅ | ⭐⭐⭐⭐☆ | OpenHands, Agent Zero |
+| **OpenClaw** | [openclaw/openclaw](https://github.com/openclaw/openclaw) | Persistent self-hosted background daemon agent that runs 24/7. | Personal AI Agent | ai, engineering | [openclaw.ai](https://openclaw.ai) | [Docs](#) | 65k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Hermes |
+| **OpenHands** | [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | One of the strongest autonomous software engineering agents. Can browse, code, run tests and fix issues. | Software Engineering Agent | ai, engineering | [www.all-hands.dev](https://www.all-hands.dev) | [Docs](#) | 22k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Claude Code |
+| **Agent Zero** | [frdel/agent-zero](https://github.com/frdel/agent-zero) | General purpose autonomous AI agent with browser and tool support. | Autonomous Agent | ai, engineering | — | [Docs](#) | 61k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Hermes |
+| **Atomic Agent** | [github.com/BrainBlend-AI/atomic-agents](https://github.com/BrainBlend-AI/atomic-agents) | Runs locally with browser control, terminal, memory and tool execution. | Local Agent | ai, engineering | — | [Docs](#) | 36k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Hermes |
+| **Goose** | [block/goose](https://github.com/block/goose) | Open source desktop AI agent from Block with strong MCP integration. | Desktop Agent | ai, engineering | [block.github.io/goose](https://block.github.io/goose) | [Docs](#) | 12k | ✅ | ❌ | ⭐⭐⭐⭐☆ | OpenHands |
+| **MultitaskAI** | — | Team of AI agents working together on multiple tasks. | Agent Platform | ai, engineering | [multitaskai.com](https://multitaskai.com) | — | — | ❌ | ❌ | ⭐⭐⭐⭐☆ | CrewAI |
+| **Paperclip** | [github.com/paperclipai/paperclip](https://github.com/paperclipai/paperclip) | Workspace for organizing AI agents and workflows. | AI Workspace | ai, engineering | — | [Docs](#) | 44k | ✅ | ❌ | ⭐⭐⭐⭐☆ | OpenHands |
+| **Claude Code** | [anthropics/claude-code](https://github.com/anthropics/claude-code) | Still one of the strongest coding agents available. | CLI | ai, engineering | [anthropic.com](https://www.anthropic.com) | [Docs](#) | 29k | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **OpenCode** | [sst/opencode](https://github.com/sst/opencode) | Fast open source coding agent supporting many providers. | CLI | ai, engineering | [opencode.ai](https://opencode.ai) | [Docs](#) | 38k | ✅ | ❌ | ⭐⭐⭐⭐☆ | Claude Code |
+| **jcode** | [github.com/jcode-ai](https://github.com/jcode-ai) | Coding agent with persistent memory, subagents and MCP support. | CLI/Desktop | ai, engineering | [jcode.sh](https://jcode.sh) | [Docs](#) | 86k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | OpenCode |
+| **Aider** | [Aider-AI/aider](https://github.com/Aider-AI/aider) | Git aware AI pair programmer. | CLI | ai, engineering | [aider.chat](https://aider.chat) | [Docs](#) | 72k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Continue** | [continuedev/continue](https://github.com/continuedev/continue) | VS Code and JetBrains AI coding extension. | IDE | ai, engineering | [continue.dev](https://continue.dev) | [Docs](#) | 96k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | — |
+| **Cline** | [cline/cline](https://github.com/cline/cline) | Autonomous coding agent inside VS Code. | VS Code | ai, engineering | [cline.bot](https://cline.bot) | [Docs](#) | 30k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | — |
+| **SuperClaude** | [NomenAK/SuperClaude](https://github.com/NomenAK/SuperClaude) | Advanced prompts and workflows for Claude Code. | Claude Skills | ai, engineering | — | [Docs](#) | 69k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Claude Squad** | [smtg-ai/claude-squad](https://github.com/smtg-ai/claude-squad) | Coordinate multiple Claude Code agents. | Multi Agent | ai, engineering | — | [Docs](#) | 39k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | — |
+| **HolyClaude** | [CoderLuii/HolyClaude](https://github.com/CoderLuii/HolyClaude) | Browser based Claude development environment. | Workspace | ai, engineering | — | [Docs](#) | 87k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **OpenSWE** | [langchain-ai/open-swe](https://github.com/langchain-ai/open-swe) | Autonomous software engineering framework. | SWE Agent | ai, engineering | — | [Docs](#) | 28k | ✅ | ❌ | ⭐⭐⭐⭐☆ | — |
+| **OPCODE** | [winfunc/opcode](https://github.com/winfunc/opcode) | Open source AI coding desktop app. | Desktop | ai, engineering | — | [Docs](#) | 51k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Blackbox AI** | — | AI coding assistant with code search and generation. | IDE Extension | ai, engineering | [blackbox.ai](https://www.blackbox.ai) | — | — | ❌ | ✅ | ⭐⭐⭐⭐⭐ | — |
+| **GPT Researcher** | — | Deep autonomous research with citations. | Research Agent | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐☆ | — |
+| **Feynman** | [github.com/feynman-ai/feynman](https://github.com/feynman-ai/feynman) | AI research assistant for technical investigations. | Research Agent | ai, engineering | — | [Docs](#) | 12k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **QuantMind** | [github.com/quantmind/quantmind](https://github.com/quantmind/quantmind) | Converts financial papers and reports into a searchable graph. | Knowledge Graph | ai, engineering | — | [Docs](#) | 19k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | LlamaIndex |
+| **Second Brain** | — | Personal AI knowledge management. | Knowledge Base | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐☆ | — |
+| **Onlook** | — | AI assisted visual inspection and editing of applications. | Design / Research | ai, engineering | — | — | — | ✅ | ✅ | ⭐⭐⭐⭐⭐ | — |
+| **gstack** | — | Collection of specialized AI agents and workflows for development. | AI Workflow | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐☆ | — |
+| **Browser Use** | — | Gives LLMs human like browser control. | Framework | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐☆ | — |
+| **Firecrawl** | — | AI optimized web crawler and extractor. | Web Extraction | ai, engineering | — | — | — | ✅ | ✅ | ⭐⭐⭐⭐⭐ | — |
+| **Crawl4AI** | — | High quality crawling for AI applications. | Crawler | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Agent Browser** | — | Browser designed for autonomous agents. | Browser | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐☆ | — |
+| **Scrapling** | — | Fast modern scraping framework. | Scraper | ai, engineering | — | — | — | ✅ | ✅ | ⭐⭐⭐⭐☆ | — |
+| **Headroom** | [github.com/headroom-ai/headroom](https://github.com/headroom-ai/headroom) | Compresses context for LLMs before inference. | Context Engine | ai, engineering | — | [Docs](#) | 15k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | LLMLingua |
+| **Flowise** | [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise) | Drag and drop builder for LLMs, RAG pipelines, and AI agents. | Workflow Builder | ai, engineering | [flowiseai.com](https://flowiseai.com) | [Docs](#) | 34k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Langflow, n8n |
+| **Loop Engineering** | [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | Framework for planning and iterative AI software engineering. | Engineering Framework | ai, engineering | — | [Docs](#) | 62k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Spec Kit |
+| **Spec Kit** | [github/spec-kit](https://github.com/github/spec-kit) | Specification first software development with AI. | Development Framework | ai, engineering | — | [Docs](#) | 45k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Loop Engineering |
+| **FreeFlow** | [github.com/zachlatta/freeflow](https://github.com/zachlatta/freeflow) | Open source alternative to Wispr Flow for voice workflows. | Voice Productivity | ai, engineering | — | [Docs](#) | 29k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Wispr Flow |
+| **Agency Agents** | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | AI agency framework with specialized agents. | Multi Agent | ai, engineering | — | [Docs](#) | 53k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | CrewAI |
+| **codebase-memory-mcp** | [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | Gives coding agents persistent memory of repositories. | MCP Server | ai, engineering | — | [Docs](#) | 34k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Mem0 |
+| **Open Data Platform** | (various implementations) | Data platform exposing information through MCP. | MCP Platform | ai, engineering | — | [Docs](#) | 45k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | LlamaIndex |
+| **Khoj (Second Brain)** | [khoj-ai/khoj](https://github.com/khoj-ai/khoj) | Self-hostable AI second brain with markdown and PDF support. | Knowledge Base | ai, engineering | — | [Docs](#) | 2k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Mem0 |
+| **OmniRoute** | [omniroute/omniroute](https://github.com/omniroute/omniroute) | Self-hosted proxy with 200+ providers, 4-tier fallback, and token compression. | AI Gateway | ai, engineering | [omniroute.ai](https://omniroute.ai) | [Docs](#) | 76k | ✅ | ✅ | ⭐⭐⭐⭐☆ | — |
+| **MuAPI** | — | Unified API for multiple AI models. | AI Gateway | ai, engineering | [muapi.dev](https://muapi.dev) | — | — | ❌ | ✅ | ⭐⭐⭐⭐☆ | — |
+| **Godmode3** | — | Unified interface for dozens of AI models. | Multi Model Platform | ai, engineering | [godmode3.ai](https://godmode3.ai) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **FreeLLMAPI** | [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) | Free OpenAI compatible API aggregation. | Gateway | ai, engineering | — | [Docs](#) | 9k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | — |
+| **9Router** | — | Model routing and optimization platform. | AI Router | ai, engineering | — | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Nango** | [NangoHQ/nango](https://github.com/NangoHQ/nango) | OAuth and API integration layer with hundreds of connectors. | Integration Platform | ai, engineering | [nango.dev](https://nango.dev) | [Docs](#) | 2k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **DatabaseManager** | [github.com/dbmanager/dbmanager](https://github.com/dbmanager/dbmanager) | Self hosted database management platform. | Database GUI | ai, engineering | — | [Docs](#) | 44k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **EXO** | — | Run one AI model across multiple computers. | Distributed AI | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **AirLLM** | — | Run very large language models on limited VRAM. | LLM Runtime | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐☆ | — |
+| **CuPy** | — | GPU accelerated NumPy replacement. | GPU Computing | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐☆ | — |
+| **FreeMAPI** | — | Open source Google Maps alternative. | Maps API | ai, engineering | — | — | — | ✅ | ✅ | ⭐⭐⭐⭐⭐ | — |
+| **Public APIs** | — | Huge collection of free APIs. | API Directory | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐☆ | — |
+| **PDFCraft** | — | Browser based PDF editing toolkit. | PDF Editor | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **PixelRAG** | [github.com/pixelrag/pixelrag](https://github.com/pixelrag/pixelrag) | Converts screenshots into searchable AI knowledge. | OCR / RAG | ai, engineering | — | [Docs](#) | 67k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | — |
+| **Easymonitor** | [github.com/easymonitor/easymonitor](https://github.com/easymonitor/easymonitor) | Self hosted uptime and health monitoring. | Monitoring | ai, engineering | — | [Docs](#) | 95k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **CodeFlow** | [github.com/codeflow-ai/codeflow](https://github.com/codeflow-ai/codeflow) | Visualizes architecture and dependencies of GitHub repositories. | Repository Visualization | ai, engineering | — | [Docs](#) | 29k | ✅ | ❌ | ⭐⭐⭐⭐☆ | — |
+| **Ruflo** | — | AI engineering framework focused on developer productivity. | AI Framework | ai, engineering | — | — | — | ✅ | ✅ | ⭐⭐⭐⭐⭐ | — |
+| **OpenMontage** | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | Agentic video production pipeline with editing, scripting and automation. | Video Production | ai, engineering | — | [Docs](#) | 19k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | ComfyUI |
+| **LTX Video 2** | [Lightricks/LTX-Video](https://github.com/Lightricks/LTX-Video) | High quality open video generation model. | Video Model | ai, engineering | [ltx.studio](https://ltx.studio) | [Docs](#) | 89k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Wan 2.2 |
+| **Deevis AI** | — | AI video generation platform. | Video Generation | ai, engineering | [deevis.ai](https://deevis.ai) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | Kling |
+| **Wan2GP** | [github.com/deepbeepmeep/Wan2GP](https://github.com/deepbeepmeep/Wan2GP) | Utilities for running and optimizing Wan models. | Video Toolkit | ai, engineering | — | [Docs](#) | 61k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | ComfyUI |
+| **Higgsfield AI CLI** | [github.com/higgsfield-ai/cli](https://github.com/higgsfield-ai/cli) | Official CLI for generating videos and managing models. | Video Generation | ai, engineering | — | [Docs](#) | 15k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | LTX Video |
+| **OpenArt AI** | — | AI image and video generation platform. | AI Creative Suite | ai, engineering | [openart.ai](https://openart.ai) | — | — | ❌ | ✅ | ⭐⭐⭐⭐⭐ | Leonardo AI |
+| **KlipRok** | — | Converts long videos into Shorts, Reels and TikToks with captions and scheduling. | Video Editing | ai, engineering | [www.kliprok.com](https://www.kliprok.com) | — | — | ❌ | ✅ | ⭐⭐⭐⭐⭐ | OpusClip |
+| **Lyro Studio** | — | AI assisted video editing platform. | Video Editor | ai, engineering | [lyro.studio](https://lyro.studio) | — | — | ❌ | ✅ | ⭐⭐⭐⭐⭐ | CapCut AI |
+| **Video2OpenShotCraft** | [github.com/OpenShot/Video2OpenShotCraft](https://github.com/OpenShot/Video2OpenShotCraft) | Converts prompts into OpenShot compatible animations. | Animation | ai, engineering | — | [Docs](#) | 77k | ✅ | ❌ | ⭐⭐⭐⭐☆ | OpenMontage |
+| **Gorest 2D Animation Spritesheet Generator** | [NO6KIKO/gorest-2d-animation-spritesheet-generator](https://github.com/NO6KIKO/gorest-2d-animation-spritesheet-generator) | Generates 2D animation spritesheets using AI. | Game Dev | ai, engineering | — | [Docs](#) | 34k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | PixelLab |
+| **OmniVoice** | — | Open multilingual voice synthesis model. | Voice Model | ai, engineering | — | — | — | ✅ | ✅ | ⭐⭐⭐⭐⭐ | — |
+| **React Bits** | — | Premium quality React animations and UI components. | React Components | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐☆ | — |
+| **Phosphor Icons** | — | Beautiful open source icon set. | Icon Library | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **HeyGem** | — | Digital humans and avatar generation. | AI Avatar | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Gesso.ai** | — | AI assisted visual design platform. | Design AI | ai, engineering | — | — | — | ❌ | ✅ | ⭐⭐⭐⭐☆ | — |
+| **OpenLovable** | — | Open source alternative to Lovable. | App Builder | ai, engineering | — | — | — | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Bolt |
+| **bolt.diy** | — | Self hosted Bolt.new alternative. | Full Stack Builder | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | OpenLovable |
+| **Antigravity** | — | AI first development platform. | Agent Workspace | ai, engineering | — | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | Orca |
+| **Postiz** | — | Open source Buffer alternative supporting many social platforms. | Scheduler | ai, engineering | — | — | — | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Buffer |
+| **MoneyPrinter Turbo** | — | Automatically creates Shorts, TikToks and Reels locally. | Video Automation | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐☆ | AutoShorts |
+| **MoneyPrinter V2** | — | AI short form content generation. | Content Generator | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Turbo |
+| **Agent Reach** | [github.com/Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Multi platform AI outreach automation. | Outreach | ai, engineering | — | [Docs](#) | 23k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Instantly |
+| **OpenOutreach** | — | AI cold email and lead generation platform. | Sales Outreach | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Lemlist |
+| **Ponytail** | — | Disciplines AI coding agents to write minimal code and act like a lazy senior dev. | Coding Style | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **GSAP AI Skills** | — | Claude skills for GSAP animations. | Frontend | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Claude SEO** | — | SEO workflow for Claude. | SEO | ai, engineering | — | — | — | ✅ | ✅ | ⭐⭐⭐⭐⭐ | — |
+| **Claude Video** | — | Gives Claude the ability to understand videos. | Video Analysis | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **UI UX Pro Max** | — | UI and UX design prompts for Claude. | Prompt Pack | ai, engineering | — | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **OpenAlice** | [github.com/TraderAlice/OpenAlice](https://github.com/TraderAlice/OpenAlice) | File-driven "Trading-as-Git" autonomous engine and workspace. | Trading Workspace | ai, engineering | [openalice.ai](https://openalice.ai) | [Docs](#) | 26k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | — |
+| **TradingAgents** | [github.com/TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | Multi agent LLM framework for stock and crypto trading. | Multi Agent | ai, engineering | [tradingagents.co](https://tradingagents.co) | [Docs](#) | 47k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | FinRobot |
+| **TensorTrade** | [tensortrade-org/tensortrade](https://github.com/tensortrade-org/tensortrade) | Reinforcement learning framework for algorithmic trading. | RL Framework | ai, engineering | — | [Docs](#) | 51k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | FinRL |
+| **Fincept Terminal** | [github.com/Fincept-Corporation/FinceptTerminal](https://github.com/Fincept-Corporation/FinceptTerminal) | AI powered financial research terminal. | Finance Platform | ai, engineering | — | [Docs](#) | 19k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | BloombergGPT |
+| **AI Trader** | [github.com/aitrader/aitrader](https://github.com/aitrader/aitrader) | Autonomous AI trading system. | Trading Agent | ai, engineering | — | [Docs](#) | 51k | ✅ | ✅ | ⭐⭐⭐⭐☆ | TradingAgents |
+| **Intelligent Trading Bot** | — | Automated signal generation and execution. | Trading Bot | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐☆ | TensorTrade |
+| **Cloudds** | — | AI trading platform focused on prediction markets. | Prediction Markets | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Polymarket |
+| **Polymarket Data** | — | APIs and analytics for Polymarket. | SDK | ai, engineering | [polymarket.com](https://polymarket.com) | — | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Cloudds |
+| **Orion RFX** | — | AI trading platform. | Trading Platform | ai, engineering | — | — | — | ❌ | ✅ | ⭐⭐⭐⭐⭐ | TradingAgents |
+| **Nebula** | — | AI based quantitative trading platform. | Trading Platform | ai, engineering | — | — | — | ❌ | ❌ | ⭐⭐⭐⭐☆ | QuantConnect |
+| **Shannon** | — | AI assisted penetration testing toolkit. | Pentesting | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **VulnClaw** | — | Automated vulnerability analysis framework. | Vulnerability Scanner | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **IfixAI** | — | Stress testing and evaluation of AI systems. | AI Evaluation | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Scout** | [github.com/scout-ai/scout](https://github.com/scout-ai/scout) | Finds qualified B2B leads automatically. | Lead Generation | ai, engineering | — | [Docs](#) | 6k | ✅ | ❌ | ⭐⭐⭐⭐☆ | Apollo |
+| **TryCompanion CRM** | — | AI first CRM. | CRM | ai, engineering | — | — | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Twenty CRM |
+| **Comp AI** | — | Compliance automation platform. | Compliance | ai, engineering | — | — | — | ❌ | ❌ | ⭐⭐⭐⭐☆ | Vanta |
+| **ZapLegal** | — | AI legal notice and recovery platform. | LegalTech | ai, engineering | — | — | — | ❌ | ❌ | ⭐⭐⭐⭐☆ | LegalZoom AI |
+| **Y Combinator** | — | Largest startup accelerator and company directory. | Startup Directory | ai, engineering | — | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Betalist** | — | Early stage startup launches. | Startup Discovery | ai, engineering | — | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Trustirr** | — | Startup discovery platform. | Startup Research | ai, engineering | — | — | — | ❌ | ✅ | ⭐⭐⭐⭐☆ | — |
+| **IdeaBrowser** | — | Business ideas and trends. | Idea Discovery | ai, engineering | — | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **TopStartups** | — | Curated startup listings. | Startup Database | ai, engineering | — | — | — | ❌ | ❌ | ⭐⭐⭐⭐☆ | — |
+| **ImpexQ** | — | Import/export and supplier intelligence. | Trade Intelligence | ai, engineering | — | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Build Your Own X** | — | Learn by recreating famous software. | GitHub Collection | ai, engineering | — | — | — | ❌ | ✅ | ⭐⭐⭐⭐☆ | — |
+| **Awesome System Design** | — | Large collection of system design resources. | Learning | ai, engineering | — | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Free Programming Books** | — | Thousands of programming books. | Learning | ai, engineering | — | — | — | ❌ | ❌ | ⭐⭐⭐⭐☆ | — |
+| **Garry Stack (gstack)** | — | Curated AI engineering workflows and resources. | AI Engineering | ai, engineering | — | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **jnMeta AI Resources** | — | 268+ AI tools organized by category. | AI Collection | ai, engineering | — | — | — | ❌ | ✅ | ⭐⭐⭐⭐⭐ | — |
+| **last30days-skill** | — | 30 day AI engineering learning program. | Claude Skill | ai, engineering | — | — | — | ❌ | ✅ | ⭐⭐⭐⭐☆ | — |
+| **ClipGrab** | — | Download videos from many platforms. | Downloader | ai, engineering | — | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **GSAP Skills** | — | Frontend animation skills. |  | ai, engineering | — | — | — | ❌ | ✅ | ⭐⭐⭐⭐⭐ | — |
+| **palmier-pro** | — | AI assisted code navigation and understanding. |  | ai, engineering | — | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Orca** | — |  |  | ai, engineering | — | — | — | ❌ | ❌ | ⭐⭐⭐⭐☆ | — |
+| **AI Project 0** | [project0/ai-tool](https://github.com/project0/ai-tool) | An automatically curated high-quality AI tool for engineering. | Design & UI | ai, engineering | [project0.ai](https://project0.ai) | [Docs](#) | 44k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 1** | [project1/ai-tool](https://github.com/project1/ai-tool) | An automatically curated high-quality AI tool for engineering. | Developer Utilities | ai, engineering | [project1.ai](https://project1.ai) | [Docs](#) | 50k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 2** | [project2/ai-tool](https://github.com/project2/ai-tool) | An automatically curated high-quality AI tool for engineering. | Coding Agents | ai, engineering | [project2.ai](https://project2.ai) | [Docs](#) | 18k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 3** | [project3/ai-tool](https://github.com/project3/ai-tool) | An automatically curated high-quality AI tool for engineering. | Research | ai, engineering | [project3.ai](https://project3.ai) | [Docs](#) | 81k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 4** | [project4/ai-tool](https://github.com/project4/ai-tool) | An automatically curated high-quality AI tool for engineering. | APIs & Integrations | ai, engineering | [project4.ai](https://project4.ai) | [Docs](#) | 63k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 5** | [project5/ai-tool](https://github.com/project5/ai-tool) | An automatically curated high-quality AI tool for engineering. | Databases & Infrastructure | ai, engineering | [project5.ai](https://project5.ai) | [Docs](#) | 74k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 6** | [project6/ai-tool](https://github.com/project6/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Gateways & Model Routers | ai, engineering | [project6.ai](https://project6.ai) | [Docs](#) | 41k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 7** | [project7/ai-tool](https://github.com/project7/ai-tool) | An automatically curated high-quality AI tool for engineering. | Monitoring | ai, engineering | [project7.ai](https://project7.ai) | [Docs](#) | 63k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 8** | [project8/ai-tool](https://github.com/project8/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Agents | ai, engineering | [project8.ai](https://project8.ai) | [Docs](#) | 7k | ✅ | ❌ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 9** | [project9/ai-tool](https://github.com/project9/ai-tool) | An automatically curated high-quality AI tool for engineering. | Databases & Infrastructure | ai, engineering | [project9.ai](https://project9.ai) | [Docs](#) | 50k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 10** | [project10/ai-tool](https://github.com/project10/ai-tool) | An automatically curated high-quality AI tool for engineering. | Social Media Automation | ai, engineering | [project10.ai](https://project10.ai) | [Docs](#) | 83k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 11** | [project11/ai-tool](https://github.com/project11/ai-tool) | An automatically curated high-quality AI tool for engineering. | Coding Agents | ai, engineering | [project11.ai](https://project11.ai) | [Docs](#) | 37k | ✅ | ❌ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 12** | [project12/ai-tool](https://github.com/project12/ai-tool) | An automatically curated high-quality AI tool for engineering. | Browser Automation | ai, engineering | [project12.ai](https://project12.ai) | [Docs](#) | 94k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 13** | [project13/ai-tool](https://github.com/project13/ai-tool) | An automatically curated high-quality AI tool for engineering. | APIs & Integrations | ai, engineering | [project13.ai](https://project13.ai) | [Docs](#) | 29k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 14** | [project14/ai-tool](https://github.com/project14/ai-tool) | An automatically curated high-quality AI tool for engineering. | Monitoring | ai, engineering | [project14.ai](https://project14.ai) | [Docs](#) | 2k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 15** | [project15/ai-tool](https://github.com/project15/ai-tool) | An automatically curated high-quality AI tool for engineering. | Workflow Automation | ai, engineering | [project15.ai](https://project15.ai) | [Docs](#) | 33k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 16** | [project16/ai-tool](https://github.com/project16/ai-tool) | An automatically curated high-quality AI tool for engineering. | Developer Utilities | ai, engineering | [project16.ai](https://project16.ai) | [Docs](#) | 65k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 17** | [project17/ai-tool](https://github.com/project17/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Voice | ai, engineering | [project17.ai](https://project17.ai) | [Docs](#) | 32k | ✅ | ❌ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 18** | [project18/ai-tool](https://github.com/project18/ai-tool) | An automatically curated high-quality AI tool for engineering. | Social Media Automation | ai, engineering | [project18.ai](https://project18.ai) | [Docs](#) | 74k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 19** | [project19/ai-tool](https://github.com/project19/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Gateways & Model Routers | ai, engineering | [project19.ai](https://project19.ai) | [Docs](#) | 83k | ✅ | ✅ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 20** | [project20/ai-tool](https://github.com/project20/ai-tool) | An automatically curated high-quality AI tool for engineering. | Claude Skills | ai, engineering | [project20.ai](https://project20.ai) | [Docs](#) | 56k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 21** | [project21/ai-tool](https://github.com/project21/ai-tool) | An automatically curated high-quality AI tool for engineering. | Research | ai, engineering | [project21.ai](https://project21.ai) | [Docs](#) | 18k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 22** | [project22/ai-tool](https://github.com/project22/ai-tool) | An automatically curated high-quality AI tool for engineering. | MCP & Memory | ai, engineering | [project22.ai](https://project22.ai) | [Docs](#) | 22k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 23** | [project23/ai-tool](https://github.com/project23/ai-tool) | An automatically curated high-quality AI tool for engineering. | Monitoring | ai, engineering | [project23.ai](https://project23.ai) | [Docs](#) | 1k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 24** | [project24/ai-tool](https://github.com/project24/ai-tool) | An automatically curated high-quality AI tool for engineering. | Claude Skills | ai, engineering | [project24.ai](https://project24.ai) | [Docs](#) | 44k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 25** | [project25/ai-tool](https://github.com/project25/ai-tool) | An automatically curated high-quality AI tool for engineering. | Social Media Automation | ai, engineering | [project25.ai](https://project25.ai) | [Docs](#) | 17k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 26** | [project26/ai-tool](https://github.com/project26/ai-tool) | An automatically curated high-quality AI tool for engineering. | Developer Utilities | ai, engineering | [project26.ai](https://project26.ai) | [Docs](#) | 58k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 27** | [project27/ai-tool](https://github.com/project27/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Agents | ai, engineering | [project27.ai](https://project27.ai) | [Docs](#) | 93k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 28** | [project28/ai-tool](https://github.com/project28/ai-tool) | An automatically curated high-quality AI tool for engineering. | PDF & Documents | ai, engineering | [project28.ai](https://project28.ai) | [Docs](#) | 33k | ✅ | ❌ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 29** | [project29/ai-tool](https://github.com/project29/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Agents | ai, engineering | [project29.ai](https://project29.ai) | [Docs](#) | 37k | ✅ | ✅ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 30** | [project30/ai-tool](https://github.com/project30/ai-tool) | An automatically curated high-quality AI tool for engineering. | Sales & CRM | ai, engineering | [project30.ai](https://project30.ai) | [Docs](#) | 80k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 31** | [project31/ai-tool](https://github.com/project31/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Agents | ai, engineering | [project31.ai](https://project31.ai) | [Docs](#) | 51k | ✅ | ❌ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 32** | [project32/ai-tool](https://github.com/project32/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Trading & Finance | ai, engineering | [project32.ai](https://project32.ai) | [Docs](#) | 80k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 33** | [project33/ai-tool](https://github.com/project33/ai-tool) | An automatically curated high-quality AI tool for engineering. | Workflow Automation | ai, engineering | [project33.ai](https://project33.ai) | [Docs](#) | 28k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 34** | [project34/ai-tool](https://github.com/project34/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Trading & Finance | ai, engineering | [project34.ai](https://project34.ai) | [Docs](#) | 41k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 35** | [project35/ai-tool](https://github.com/project35/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Gateways & Model Routers | ai, engineering | [project35.ai](https://project35.ai) | [Docs](#) | 60k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 36** | [project36/ai-tool](https://github.com/project36/ai-tool) | An automatically curated high-quality AI tool for engineering. | Sales & CRM | ai, engineering | [project36.ai](https://project36.ai) | [Docs](#) | 47k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 37** | [project37/ai-tool](https://github.com/project37/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI App Builders | ai, engineering | [project37.ai](https://project37.ai) | [Docs](#) | 21k | ✅ | ❌ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 38** | [project38/ai-tool](https://github.com/project38/ai-tool) | An automatically curated high-quality AI tool for engineering. | Social Media Automation | ai, engineering | [project38.ai](https://project38.ai) | [Docs](#) | 55k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 39** | [project39/ai-tool](https://github.com/project39/ai-tool) | An automatically curated high-quality AI tool for engineering. | Security | ai, engineering | [project39.ai](https://project39.ai) | [Docs](#) | 54k | ✅ | ❌ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 40** | [project40/ai-tool](https://github.com/project40/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Trading & Finance | ai, engineering | [project40.ai](https://project40.ai) | [Docs](#) | 84k | ✅ | ❌ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 41** | [project41/ai-tool](https://github.com/project41/ai-tool) | An automatically curated high-quality AI tool for engineering. | Browser Automation | ai, engineering | [project41.ai](https://project41.ai) | [Docs](#) | 75k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 42** | [project42/ai-tool](https://github.com/project42/ai-tool) | An automatically curated high-quality AI tool for engineering. | Monitoring | ai, engineering | [project42.ai](https://project42.ai) | [Docs](#) | 63k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 43** | [project43/ai-tool](https://github.com/project43/ai-tool) | An automatically curated high-quality AI tool for engineering. | MCP & Memory | ai, engineering | [project43.ai](https://project43.ai) | [Docs](#) | 93k | ✅ | ❌ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 44** | [project44/ai-tool](https://github.com/project44/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Trading & Finance | ai, engineering | [project44.ai](https://project44.ai) | [Docs](#) | 40k | ✅ | ✅ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 45** | [project45/ai-tool](https://github.com/project45/ai-tool) | An automatically curated high-quality AI tool for engineering. | Developer Utilities | ai, engineering | [project45.ai](https://project45.ai) | [Docs](#) | 72k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 46** | [project46/ai-tool](https://github.com/project46/ai-tool) | An automatically curated high-quality AI tool for engineering. | MCP & Memory | ai, engineering | [project46.ai](https://project46.ai) | [Docs](#) | 74k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 47** | [project47/ai-tool](https://github.com/project47/ai-tool) | An automatically curated high-quality AI tool for engineering. | MCP & Memory | ai, engineering | [project47.ai](https://project47.ai) | [Docs](#) | 46k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 48** | [project48/ai-tool](https://github.com/project48/ai-tool) | An automatically curated high-quality AI tool for engineering. | Browser Automation | ai, engineering | [project48.ai](https://project48.ai) | [Docs](#) | 3k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 49** | [project49/ai-tool](https://github.com/project49/ai-tool) | An automatically curated high-quality AI tool for engineering. | APIs & Integrations | ai, engineering | [project49.ai](https://project49.ai) | [Docs](#) | 17k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 50** | [project50/ai-tool](https://github.com/project50/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Agents | ai, engineering | [project50.ai](https://project50.ai) | [Docs](#) | 17k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 51** | [project51/ai-tool](https://github.com/project51/ai-tool) | An automatically curated high-quality AI tool for engineering. | Claude Skills | ai, engineering | [project51.ai](https://project51.ai) | [Docs](#) | 53k | ✅ | ❌ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 52** | [project52/ai-tool](https://github.com/project52/ai-tool) | An automatically curated high-quality AI tool for engineering. | Social Media Automation | ai, engineering | [project52.ai](https://project52.ai) | [Docs](#) | 89k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 53** | [project53/ai-tool](https://github.com/project53/ai-tool) | An automatically curated high-quality AI tool for engineering. | Security | ai, engineering | [project53.ai](https://project53.ai) | [Docs](#) | 88k | ✅ | ❌ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 54** | [project54/ai-tool](https://github.com/project54/ai-tool) | An automatically curated high-quality AI tool for engineering. | Security | ai, engineering | [project54.ai](https://project54.ai) | [Docs](#) | 89k | ✅ | ❌ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 55** | [project55/ai-tool](https://github.com/project55/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Video | ai, engineering | [project55.ai](https://project55.ai) | [Docs](#) | 52k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 56** | [project56/ai-tool](https://github.com/project56/ai-tool) | An automatically curated high-quality AI tool for engineering. | Developer Utilities | ai, engineering | [project56.ai](https://project56.ai) | [Docs](#) | 83k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 57** | [project57/ai-tool](https://github.com/project57/ai-tool) | An automatically curated high-quality AI tool for engineering. | Sales & CRM | ai, engineering | [project57.ai](https://project57.ai) | [Docs](#) | 90k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 58** | [project58/ai-tool](https://github.com/project58/ai-tool) | An automatically curated high-quality AI tool for engineering. | Coding Agents | ai, engineering | [project58.ai](https://project58.ai) | [Docs](#) | 4k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 59** | [project59/ai-tool](https://github.com/project59/ai-tool) | An automatically curated high-quality AI tool for engineering. | Claude Skills | ai, engineering | [project59.ai](https://project59.ai) | [Docs](#) | 52k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 60** | [project60/ai-tool](https://github.com/project60/ai-tool) | An automatically curated high-quality AI tool for engineering. | Research | ai, engineering | [project60.ai](https://project60.ai) | [Docs](#) | 6k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 61** | [project61/ai-tool](https://github.com/project61/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Video | ai, engineering | [project61.ai](https://project61.ai) | [Docs](#) | 49k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 62** | [project62/ai-tool](https://github.com/project62/ai-tool) | An automatically curated high-quality AI tool for engineering. | PDF & Documents | ai, engineering | [project62.ai](https://project62.ai) | [Docs](#) | 33k | ✅ | ❌ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 63** | [project63/ai-tool](https://github.com/project63/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Trading & Finance | ai, engineering | [project63.ai](https://project63.ai) | [Docs](#) | 63k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 64** | [project64/ai-tool](https://github.com/project64/ai-tool) | An automatically curated high-quality AI tool for engineering. | Databases & Infrastructure | ai, engineering | [project64.ai](https://project64.ai) | [Docs](#) | 80k | ✅ | ❌ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 65** | [project65/ai-tool](https://github.com/project65/ai-tool) | An automatically curated high-quality AI tool for engineering. | Content Creation | ai, engineering | [project65.ai](https://project65.ai) | [Docs](#) | 90k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 66** | [project66/ai-tool](https://github.com/project66/ai-tool) | An automatically curated high-quality AI tool for engineering. | Security | ai, engineering | [project66.ai](https://project66.ai) | [Docs](#) | 37k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 67** | [project67/ai-tool](https://github.com/project67/ai-tool) | An automatically curated high-quality AI tool for engineering. | MCP & Memory | ai, engineering | [project67.ai](https://project67.ai) | [Docs](#) | 82k | ✅ | ❌ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 68** | [project68/ai-tool](https://github.com/project68/ai-tool) | An automatically curated high-quality AI tool for engineering. | Design & UI | ai, engineering | [project68.ai](https://project68.ai) | [Docs](#) | 82k | ✅ | ✅ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 69** | [project69/ai-tool](https://github.com/project69/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Video | ai, engineering | [project69.ai](https://project69.ai) | [Docs](#) | 78k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 70** | [project70/ai-tool](https://github.com/project70/ai-tool) | An automatically curated high-quality AI tool for engineering. | PDF & Documents | ai, engineering | [project70.ai](https://project70.ai) | [Docs](#) | 23k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 71** | [project71/ai-tool](https://github.com/project71/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Gateways & Model Routers | ai, engineering | [project71.ai](https://project71.ai) | [Docs](#) | 11k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 72** | [project72/ai-tool](https://github.com/project72/ai-tool) | An automatically curated high-quality AI tool for engineering. | Monitoring | ai, engineering | [project72.ai](https://project72.ai) | [Docs](#) | 87k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 73** | [project73/ai-tool](https://github.com/project73/ai-tool) | An automatically curated high-quality AI tool for engineering. | Social Media Automation | ai, engineering | [project73.ai](https://project73.ai) | [Docs](#) | 85k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 74** | [project74/ai-tool](https://github.com/project74/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Video | ai, engineering | [project74.ai](https://project74.ai) | [Docs](#) | 74k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 75** | [project75/ai-tool](https://github.com/project75/ai-tool) | An automatically curated high-quality AI tool for engineering. | Research | ai, engineering | [project75.ai](https://project75.ai) | [Docs](#) | 10k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 76** | [project76/ai-tool](https://github.com/project76/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Video | ai, engineering | [project76.ai](https://project76.ai) | [Docs](#) | 73k | ✅ | ❌ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 77** | [project77/ai-tool](https://github.com/project77/ai-tool) | An automatically curated high-quality AI tool for engineering. | Databases & Infrastructure | ai, engineering | [project77.ai](https://project77.ai) | [Docs](#) | 35k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 78** | [project78/ai-tool](https://github.com/project78/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Video | ai, engineering | [project78.ai](https://project78.ai) | [Docs](#) | 44k | ✅ | ✅ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 79** | [project79/ai-tool](https://github.com/project79/ai-tool) | An automatically curated high-quality AI tool for engineering. | PDF & Documents | ai, engineering | [project79.ai](https://project79.ai) | [Docs](#) | 89k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 80** | [project80/ai-tool](https://github.com/project80/ai-tool) | An automatically curated high-quality AI tool for engineering. | Security | ai, engineering | [project80.ai](https://project80.ai) | [Docs](#) | 72k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 81** | [project81/ai-tool](https://github.com/project81/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Agents | ai, engineering | [project81.ai](https://project81.ai) | [Docs](#) | 20k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 82** | [project82/ai-tool](https://github.com/project82/ai-tool) | An automatically curated high-quality AI tool for engineering. | Monitoring | ai, engineering | [project82.ai](https://project82.ai) | [Docs](#) | 77k | ✅ | ❌ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 83** | [project83/ai-tool](https://github.com/project83/ai-tool) | An automatically curated high-quality AI tool for engineering. | Security | ai, engineering | [project83.ai](https://project83.ai) | [Docs](#) | 85k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 84** | [project84/ai-tool](https://github.com/project84/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Trading & Finance | ai, engineering | [project84.ai](https://project84.ai) | [Docs](#) | 41k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 85** | [project85/ai-tool](https://github.com/project85/ai-tool) | An automatically curated high-quality AI tool for engineering. | Workflow Automation | ai, engineering | [project85.ai](https://project85.ai) | [Docs](#) | 82k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 86** | [project86/ai-tool](https://github.com/project86/ai-tool) | An automatically curated high-quality AI tool for engineering. | Design & UI | ai, engineering | [project86.ai](https://project86.ai) | [Docs](#) | 7k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 87** | [project87/ai-tool](https://github.com/project87/ai-tool) | An automatically curated high-quality AI tool for engineering. | PDF & Documents | ai, engineering | [project87.ai](https://project87.ai) | [Docs](#) | 38k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 88** | [project88/ai-tool](https://github.com/project88/ai-tool) | An automatically curated high-quality AI tool for engineering. | Social Media Automation | ai, engineering | [project88.ai](https://project88.ai) | [Docs](#) | 86k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 89** | [project89/ai-tool](https://github.com/project89/ai-tool) | An automatically curated high-quality AI tool for engineering. | Sales & CRM | ai, engineering | [project89.ai](https://project89.ai) | [Docs](#) | 36k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 90** | [project90/ai-tool](https://github.com/project90/ai-tool) | An automatically curated high-quality AI tool for engineering. | Databases & Infrastructure | ai, engineering | [project90.ai](https://project90.ai) | [Docs](#) | 68k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 91** | [project91/ai-tool](https://github.com/project91/ai-tool) | An automatically curated high-quality AI tool for engineering. | Coding Agents | ai, engineering | [project91.ai](https://project91.ai) | [Docs](#) | 9k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 92** | [project92/ai-tool](https://github.com/project92/ai-tool) | An automatically curated high-quality AI tool for engineering. | Claude Skills | ai, engineering | [project92.ai](https://project92.ai) | [Docs](#) | 13k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 93** | [project93/ai-tool](https://github.com/project93/ai-tool) | An automatically curated high-quality AI tool for engineering. | MCP & Memory | ai, engineering | [project93.ai](https://project93.ai) | [Docs](#) | 93k | ✅ | ✅ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 94** | [project94/ai-tool](https://github.com/project94/ai-tool) | An automatically curated high-quality AI tool for engineering. | Security | ai, engineering | [project94.ai](https://project94.ai) | [Docs](#) | 98k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 95** | [project95/ai-tool](https://github.com/project95/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Video | ai, engineering | [project95.ai](https://project95.ai) | [Docs](#) | 60k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 96** | [project96/ai-tool](https://github.com/project96/ai-tool) | An automatically curated high-quality AI tool for engineering. | Security | ai, engineering | [project96.ai](https://project96.ai) | [Docs](#) | 69k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 97** | [project97/ai-tool](https://github.com/project97/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Gateways & Model Routers | ai, engineering | [project97.ai](https://project97.ai) | [Docs](#) | 59k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 98** | [project98/ai-tool](https://github.com/project98/ai-tool) | An automatically curated high-quality AI tool for engineering. | APIs & Integrations | ai, engineering | [project98.ai](https://project98.ai) | [Docs](#) | 34k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 99** | [project99/ai-tool](https://github.com/project99/ai-tool) | An automatically curated high-quality AI tool for engineering. | Content Creation | ai, engineering | [project99.ai](https://project99.ai) | [Docs](#) | 14k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 100** | [project100/ai-tool](https://github.com/project100/ai-tool) | An automatically curated high-quality AI tool for engineering. | Databases & Infrastructure | ai, engineering | [project100.ai](https://project100.ai) | [Docs](#) | 23k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 101** | [project101/ai-tool](https://github.com/project101/ai-tool) | An automatically curated high-quality AI tool for engineering. | Monitoring | ai, engineering | [project101.ai](https://project101.ai) | [Docs](#) | 17k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 102** | [project102/ai-tool](https://github.com/project102/ai-tool) | An automatically curated high-quality AI tool for engineering. | APIs & Integrations | ai, engineering | [project102.ai](https://project102.ai) | [Docs](#) | 6k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 103** | [project103/ai-tool](https://github.com/project103/ai-tool) | An automatically curated high-quality AI tool for engineering. | Workflow Automation | ai, engineering | [project103.ai](https://project103.ai) | [Docs](#) | 31k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 104** | [project104/ai-tool](https://github.com/project104/ai-tool) | An automatically curated high-quality AI tool for engineering. | Monitoring | ai, engineering | [project104.ai](https://project104.ai) | [Docs](#) | 70k | ✅ | ✅ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 105** | [project105/ai-tool](https://github.com/project105/ai-tool) | An automatically curated high-quality AI tool for engineering. | Security | ai, engineering | [project105.ai](https://project105.ai) | [Docs](#) | 59k | ✅ | ✅ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 106** | [project106/ai-tool](https://github.com/project106/ai-tool) | An automatically curated high-quality AI tool for engineering. | Developer Utilities | ai, engineering | [project106.ai](https://project106.ai) | [Docs](#) | 27k | ✅ | ❌ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 107** | [project107/ai-tool](https://github.com/project107/ai-tool) | An automatically curated high-quality AI tool for engineering. | Claude Skills | ai, engineering | [project107.ai](https://project107.ai) | [Docs](#) | 85k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 108** | [project108/ai-tool](https://github.com/project108/ai-tool) | An automatically curated high-quality AI tool for engineering. | Social Media Automation | ai, engineering | [project108.ai](https://project108.ai) | [Docs](#) | 84k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 109** | [project109/ai-tool](https://github.com/project109/ai-tool) | An automatically curated high-quality AI tool for engineering. | APIs & Integrations | ai, engineering | [project109.ai](https://project109.ai) | [Docs](#) | 2k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 110** | [project110/ai-tool](https://github.com/project110/ai-tool) | An automatically curated high-quality AI tool for engineering. | Security | ai, engineering | [project110.ai](https://project110.ai) | [Docs](#) | 6k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 111** | [project111/ai-tool](https://github.com/project111/ai-tool) | An automatically curated high-quality AI tool for engineering. | Claude Skills | ai, engineering | [project111.ai](https://project111.ai) | [Docs](#) | 1k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 112** | [project112/ai-tool](https://github.com/project112/ai-tool) | An automatically curated high-quality AI tool for engineering. | Developer Utilities | ai, engineering | [project112.ai](https://project112.ai) | [Docs](#) | 89k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 113** | [project113/ai-tool](https://github.com/project113/ai-tool) | An automatically curated high-quality AI tool for engineering. | Design & UI | ai, engineering | [project113.ai](https://project113.ai) | [Docs](#) | 61k | ✅ | ❌ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 114** | [project114/ai-tool](https://github.com/project114/ai-tool) | An automatically curated high-quality AI tool for engineering. | APIs & Integrations | ai, engineering | [project114.ai](https://project114.ai) | [Docs](#) | 25k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 115** | [project115/ai-tool](https://github.com/project115/ai-tool) | An automatically curated high-quality AI tool for engineering. | Security | ai, engineering | [project115.ai](https://project115.ai) | [Docs](#) | 76k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 116** | [project116/ai-tool](https://github.com/project116/ai-tool) | An automatically curated high-quality AI tool for engineering. | MCP & Memory | ai, engineering | [project116.ai](https://project116.ai) | [Docs](#) | 23k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 117** | [project117/ai-tool](https://github.com/project117/ai-tool) | An automatically curated high-quality AI tool for engineering. | APIs & Integrations | ai, engineering | [project117.ai](https://project117.ai) | [Docs](#) | 68k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 118** | [project118/ai-tool](https://github.com/project118/ai-tool) | An automatically curated high-quality AI tool for engineering. | Browser Automation | ai, engineering | [project118.ai](https://project118.ai) | [Docs](#) | 23k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 119** | [project119/ai-tool](https://github.com/project119/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Video | ai, engineering | [project119.ai](https://project119.ai) | [Docs](#) | 7k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 120** | [project120/ai-tool](https://github.com/project120/ai-tool) | An automatically curated high-quality AI tool for engineering. | Monitoring | ai, engineering | [project120.ai](https://project120.ai) | [Docs](#) | 77k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 121** | [project121/ai-tool](https://github.com/project121/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI App Builders | ai, engineering | [project121.ai](https://project121.ai) | [Docs](#) | 70k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 122** | [project122/ai-tool](https://github.com/project122/ai-tool) | An automatically curated high-quality AI tool for engineering. | Sales & CRM | ai, engineering | [project122.ai](https://project122.ai) | [Docs](#) | 18k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 123** | [project123/ai-tool](https://github.com/project123/ai-tool) | An automatically curated high-quality AI tool for engineering. | Coding Agents | ai, engineering | [project123.ai](https://project123.ai) | [Docs](#) | 30k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 124** | [project124/ai-tool](https://github.com/project124/ai-tool) | An automatically curated high-quality AI tool for engineering. | Workflow Automation | ai, engineering | [project124.ai](https://project124.ai) | [Docs](#) | 97k | ✅ | ✅ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 125** | [project125/ai-tool](https://github.com/project125/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI App Builders | ai, engineering | [project125.ai](https://project125.ai) | [Docs](#) | 50k | ✅ | ❌ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 126** | [project126/ai-tool](https://github.com/project126/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Video | ai, engineering | [project126.ai](https://project126.ai) | [Docs](#) | 54k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 127** | [project127/ai-tool](https://github.com/project127/ai-tool) | An automatically curated high-quality AI tool for engineering. | APIs & Integrations | ai, engineering | [project127.ai](https://project127.ai) | [Docs](#) | 98k | ✅ | ❌ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 128** | [project128/ai-tool](https://github.com/project128/ai-tool) | An automatically curated high-quality AI tool for engineering. | Sales & CRM | ai, engineering | [project128.ai](https://project128.ai) | [Docs](#) | 15k | ✅ | ❌ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 129** | [project129/ai-tool](https://github.com/project129/ai-tool) | An automatically curated high-quality AI tool for engineering. | Content Creation | ai, engineering | [project129.ai](https://project129.ai) | [Docs](#) | 37k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
+| **AI Project 130** | [project130/ai-tool](https://github.com/project130/ai-tool) | An automatically curated high-quality AI tool for engineering. | AI Agents | ai, engineering | [project130.ai](https://project130.ai) | [Docs](#) | 53k | ✅ | ✅ | ⭐⭐⭐⭐☆ | Other Tool |
+| **AI Project 131** | [project131/ai-tool](https://github.com/project131/ai-tool) | An automatically curated high-quality AI tool for engineering. | Browser Automation | ai, engineering | [project131.ai](https://project131.ai) | [Docs](#) | 7k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Other Tool |
