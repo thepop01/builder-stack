@@ -38,13 +38,8 @@ A curated list of the best AI tools, autonomous agents, and frameworks for the m
 - [💎 Hidden Gems](#-hidden-gems)
 - [🚀 Emerging Projects](#-emerging-projects)
 - [🏅 Hall of Fame (Top 20)](#-hall-of-fame-my-top-20)
-- [📊 Ratings Guide](#-ratings-guide)
 
 ---
-
-# AI Engineer Directory v1.0
-
-## Volume 1
 
 **AI Agents, Coding Agents, Research, Browser Automation**
 
@@ -110,27 +105,7 @@ A curated list of the best AI tools, autonomous agents, and frameworks for the m
 
 ---
 
-# 📊 Ratings Guide
-
-**⭐⭐⭐⭐⭐** Essential, best in class, widely adopted.
-
-**⭐⭐⭐⭐☆** Excellent, recommended for most projects.
-
-**⭐⭐⭐☆☆** Good but niche or newer.
-
-**⭐⭐☆☆☆** Experimental.
-
-**⭐☆☆☆☆** Avoid unless you have a specific need.
-
 ---
-
-This is **Volume 1 (around 30 tools)**. The complete directory will likely span **4 to 5 volumes** and cover **150+ curated tools** with consistent formatting, official GitHub links, websites, descriptions, alternatives, and ratings.
-
-I also plan to add a final **"Top 50 Must Know AI Tools for Builders"** section that ranks the most valuable projects across all categories for someone building AI applications and autonomous agents.
-
-# AI Engineer Directory v1.0
-
-## Volume 2
 
 **Workflow Automation, MCP, AI Gateways, Infrastructure, APIs, Databases**
 
@@ -221,7 +196,7 @@ I also plan to add a final **"Top 50 Must Know AI Tools for Builders"** section 
 
 ---
 
-# ⭐ Top Picks from Volume 2
+# ⭐ Top Picks
 
 | Tool                    | Why it stands out                                                  |
 | ----------------------- | ------------------------------------------------------------------ |
@@ -234,10 +209,6 @@ I also plan to add a final **"Top 50 Must Know AI Tools for Builders"** section 
 | **Spec Kit**            | Encourages specification driven development with AI.               |
 
 ---
-
-# AI Engineer Directory v1.0
-
-## Volume 3
 
 **AI Video, AI Voice, App Builders, UI & Design, Social Media, Content Creation**
 
@@ -330,7 +301,7 @@ I also plan to add a final **"Top 50 Must Know AI Tools for Builders"** section 
 
 ---
 
-# ⭐ Top Picks from Volume 3
+# ⭐ Top Picks
 
 | Tool                   | Why it stands out                                              |
 | ---------------------- | -------------------------------------------------------------- |
@@ -344,10 +315,6 @@ I also plan to add a final **"Top 50 Must Know AI Tools for Builders"** section 
 | **Phosphor Icons**     | A staple icon library for modern web apps.                     |
 
 ---
-
-# AI Engineer Directory v1.0
-
-## Volume 4
 
 **Trading, Security, Sales, CRM, APIs, Startup Research, Learning Resources, Utilities**
 
@@ -446,7 +413,7 @@ I also plan to add a final **"Top 50 Must Know AI Tools for Builders"** section 
 
 ---
 
-# ⭐ Top Picks from Volume 4
+# ⭐ Top Picks
 
 | Tool                      | Why it's worth knowing                                           |
 | ------------------------- | ---------------------------------------------------------------- |
@@ -459,7 +426,7 @@ I also plan to add a final **"Top 50 Must Know AI Tools for Builders"** section 
 
 ---
 
-# 🏆 Overall Top 25 (Across All Volumes)
+# 🏆 Overall Top 25
 
 These are the tools I'd consider the most impactful overall:
 
@@ -508,13 +475,7 @@ These are the tools I'd consider the most impactful overall:
 
 ---
 
-# AI Engineer Directory v1.0
-
-## Volume 5
-
 **Awesome Lists, Models, Claude Skills, Knowledge Bases, Hidden Gems, Emerging Projects**
-
-This volume includes the projects that don't fit neatly into the previous categories but are extremely valuable.
 
 ---
 
