@@ -1,4 +1,4 @@
-# 🚀 Awesome 2026 Builder Stack (Version 2)
+# 🚀 Awesome 2026 Builder Stack
 
 A 100% verified, curated list of 250 of the best AI tools, autonomous agents, and frameworks for the modern AI Engineer.
 
@@ -8,18 +8,20 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 - [AI Coding Agents (12)](#ai-coding-agents-12)
 - [AI Engineering Frameworks (10)](#ai-engineering-frameworks-10)
 - [AI Gateways & Model Routers (4)](#ai-gateways-model-routers-4)
+- [AI Marketing Suites (3)](#ai-marketing-suites-3)
 - [AI Memory & MCP (6)](#ai-memory-mcp-6)
 - [AI Models (2)](#ai-models-2)
 - [AI Research (2)](#ai-research-2)
 - [AI Workspaces & IDEs (7)](#ai-workspaces-ides-7)
 - [APIs & Integrations (4)](#apis-integrations-4)
-- [Awesome Lists & Curated Collections (3)](#awesome-lists-curated-collections-3)
+- [Awesome Lists & Curated Collections (5)](#awesome-lists-curated-collections-5)
 - [Browser Automation (4)](#browser-automation-4)
-- [CRM (1)](#crm-1)
+- [CRM (11)](#crm-11)
 - [Claude Ecosystem (6)](#claude-ecosystem-6)
 - [Databases (3)](#databases-3)
 - [Developer Utilities (13)](#developer-utilities-13)
-- [Image Generation (3)](#image-generation-3)
+- [GEO & AEO (5)](#geo-aeo-5)
+- [Image Generation (4)](#image-generation-4)
 - [Infrastructure & Compute (9)](#infrastructure-compute-9)
 - [Learning Resources (2)](#learning-resources-2)
 - [Legal & Compliance (2)](#legal-compliance-2)
@@ -32,11 +34,11 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 - [Sales & Outreach (6)](#sales-outreach-6)
 - [Security & AI Safety (4)](#security-ai-safety-4)
 - [Social Media Automation (4)](#social-media-automation-4)
-- [Startup Discovery & Market Research (5)](#startup-discovery-market-research-5)
+- [Startup Discovery & Market Research (6)](#startup-discovery-market-research-6)
 - [Trading & Finance (22)](#trading-finance-22)
 - [UI & Design (7)](#ui-design-7)
 - [Video Editing (3)](#video-editing-3)
-- [Video Generation (7)](#video-generation-7)
+- [Video Generation (8)](#video-generation-8)
 - [Voice & Audio (3)](#voice-audio-3)
 - [Web Scraping (2)](#web-scraping-2)
 
@@ -93,6 +95,14 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 | **FreeLLMAPI** | [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) | Free OpenAI compatible API aggregation. | ai, engineering | — | [Docs](#) | 77k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **9Router** | [decolua/9router](https://github.com/decolua/9router) | Model routing and optimization platform. | ai, engineering | — | [Docs](#) | 47k | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 
+## AI Marketing Suites (3)
+
+| Project | GitHub | Description | Tags | Website | Docs | Stars | Self Hosted | MCP | Rating | Alternatives |
+|---|---|---|---|---|---|---|---|---|---|---|
+| **ai-marketing-claude** | [zubair-trabzada/ai-marketing-claude](https://github.com/zubair-trabzada/ai-marketing-claude) | 15 marketing skills w/ parallel subagents — audits, copy, email sequences, ad campaigns, content calendars, competitive intel, client-ready PDF reports | ai, engineering | — | [Docs](#) | 2k | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **claude-blog** | [AI-Marketing-Hub/claude-blog](https://github.com/AI-Marketing-Hub/claude-blog) | 30 sub-skills, 5 agents, dual-optimized for Google rankings and AI citations (GEO). | ai, engineering | — | [Docs](#) | 1k | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **AI marketing plugin** | — | 158 skills, 25 specialist agents, EU AI Act–ready, works across Claude Code, Cowork, Codex, Cursor, Antigravity. | ai, engineering | — | [Docs](#) | 709 | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+
 ## AI Memory & MCP (6)
 
 | Project | GitHub | Description | Tags | Website | Docs | Stars | Self Hosted | MCP | Rating | Alternatives |
@@ -139,13 +149,15 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 | **Public APIs** | [public-apis/public-apis](https://github.com/public-apis/public-apis) | Huge collection of free APIs. | ai, engineering | — | [Docs](#) | 2k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **Composio** | https://github.com/ComposioHQ/composio |  | ai, engineering | — | [Docs](#) | 70k | ❌ | ✅ | ⭐⭐⭐⭐⭐ | — |
 
-## Awesome Lists & Curated Collections (3)
+## Awesome Lists & Curated Collections (5)
 
 | Project | GitHub | Description | Tags | Website | Docs | Stars | Self Hosted | MCP | Rating | Alternatives |
 |---|---|---|---|---|---|---|---|---|---|---|
 | **Build Your Own X** | [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | Learn by recreating famous software. | ai, engineering | — | [Docs](#) | 12k | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **jnMeta AI Resources** | [jnmeta/ai-agents-directory](https://github.com/jnmeta/ai-agents-directory) | 268+ AI tools organized by category. | ai, engineering | — | [Docs](#) | 3k | ❌ | ✅ | ⭐⭐⭐⭐⭐ | — |
 | **developer-roadmap** | https://github.com/kamranahmedse/developer-roadmap |  | ai, engineering | — | [Docs](#) | 39k | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **awesome-ai-seo** | [best-of-ai/awesome-ai-seo](https://github.com/best-of-ai/awesome-ai-seo) | Curated list of AI SEO/GEO tools, prompts, platforms. | ai, engineering | — | [Docs](#) | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **awesome-ai-agents-2026** | [ARUNAGIRINATHAN-K/awesome-ai-agents-2026](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents-2026) | Broader curated list, but has a solid marketing/SEO agent section. | ai, engineering | — | [Docs](#) | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 
 ## Browser Automation (4)
 
@@ -156,11 +168,21 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 | **Stagehand** | https://github.com/browserbase/stagehand |  | ai, engineering | — | [Docs](#) | 88k | ❌ | ✅ | ⭐⭐⭐⭐⭐ | — |
 | **Skyvern** | https://github.com/Skyvern-AI/skyvern |  | ai, engineering | — | [Docs](#) | 44k | ❌ | ✅ | ⭐⭐⭐⭐⭐ | — |
 
-## CRM (1)
+## CRM (11)
 
-| Project | GitHub | Description | Tags | Website | Docs | Stars | Self Hosted | MCP | Rating | Alternatives |
-|---|---|---|---|---|---|---|---|---|---|---|
-| **TryCompanion CRM** | [trycompai/crm](https://github.com/trycompai/crm) | AI first CRM. | ai, engineering | — | [Docs](#) | 11k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Twenty CRM |
+| Project | GitHub | Description | Tags | Website | Docs | Stars | Self Hosted | MCP | Rating | Alternatives | Best Community Server | Cost |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| **TryCompanion CRM** | [trycompai/crm](https://github.com/trycompai/crm) | AI first CRM. | ai, engineering | — | [Docs](#) | 11k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Twenty CRM | — | Free |
+| **Twenty** | [twentyhq/twenty](https://github.com/twentyhq/twenty) | "The open alternative to Salesforce, designed for AI." React/GraphQL/TypeScript, integrates external AI systems. | ai, engineering | — | [Docs](#) | 37.6k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — | [jezweb/twenty-mcp](https://github.com/jezweb/twenty-mcp) | Free (self-hosted) |
+| **Krayin CRM** | [krayin/laravel-crm](https://github.com/krayin/laravel-crm) | Laravel-based, sales-focused CRM with native AI content generation and in-app intelligent assistant. | ai, engineering | — | [Docs](#) | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — | — | Free |
+| **NocoBase** | [nocobase/nocobase](https://github.com/nocobase/nocobase) | No-code platform where AI agents handle data cleaning and auto-generate trend charts/KPI cards. | ai, engineering | — | [Docs](#) | 23.5k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — | — | Free |
+| **Macro** | — | Unified interface for email, messages, tasks, calls, agents, PRs, docs, and CRM linked by shared AI memory. | ai, engineering | — | [Docs](#) | 713 | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — | — | — |
+| **EspoCRM** | [espocrm/espocrm](https://github.com/espocrm/espocrm) | Strong, mature, practical self-hosted CRM pick. | ai, engineering | — | [Docs](#) | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — | — | Free |
+| **SuiteCRM** | [salesagility/SuiteCRM](https://github.com/salesagility/SuiteCRM) | Classic SugarCRM-derived open-source Salesforce alternative. | ai, engineering | — | [Docs](#) | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — | — | Free |
+| **Frappe / ERPNext** | [frappe/erpnext](https://github.com/frappe/erpnext) | Full ERP (accounting, healthcare, manufacturing, retail, POS) with CRM built in, Python. | ai, engineering | — | [Docs](#) | 27.2k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — | — | Free |
+| **Huly** | — | All-in-one platform that includes CRM (alternative to Linear + Jira + Slack + Notion + Motion). | ai, engineering | — | [Docs](#) | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — | — | Free |
+| **HubSpot** | — | Leading SaaS CRM with official remote MCP support. | ai, engineering | [hubspot.com](https://hubspot.com) | [Docs](#) | — | ❌ | ✅ | ⭐⭐⭐⭐⭐ | Salesforce | — | Paid tiers |
+| **Attio** | — | Data-driven CRM for modern teams with official MCP support. | ai, engineering | [attio.com](https://attio.com) | [Docs](#) | — | ❌ | ✅ | ⭐⭐⭐⭐⭐ | — | [kesslerio/attio-mcp-server](https://github.com/kesslerio/attio-mcp-server) | Paid |
 
 ## Claude Ecosystem (6)
 
@@ -199,13 +221,24 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 | **Obsidian Skills** | https://github.com/kepano/obsidian-skills | Skills and prompt packs for using AI within Obsidian. | ai, engineering | — | [Docs](#) | 45k | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **Reverse-Skill** | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | AI-powered routing toolchain that automates complex reverse engineering tasks. | ai, engineering | — | [Docs](#) | 21k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | — |
 
-## Image Generation (3)
+## GEO & AEO (5)
+
+| Project | GitHub | Description | Tags | Website | Docs | Stars | Self Hosted | MCP | Rating | Alternatives |
+|---|---|---|---|---|---|---|---|---|---|---|
+| **GEO/AEO Tracker** | — | Open-source, local-first AI-visibility dashboard — tracks whether ChatGPT, Perplexity, Gemini, Copilot, Google AI Overview, and Grok cite your site. | ai, engineering | — | [Docs](#) | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Profound/Peec AI |
+| **SEOBuild Onpage** | — | AI agent that writes pages both Google ranks and LLMs cite — built on DeerFlow, forensic competitive analysis. | ai, engineering | — | [Docs](#) | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **NotFair Skills** | — | Open-source Claude Code skills for SEO, GEO, Google Ads, Meta Ads — connects to Google Ads, Meta Ads, Search Console, GA4. | ai, engineering | — | [Docs](#) | — | ❌ | ✅ | ⭐⭐⭐⭐⭐ | — |
+| **Hyper** | — | Open-source Agent Skills + hosted MCP connecting agents to 200+ marketing integrations with a human-approval gate on every action. | ai, engineering | — | [Docs](#) | — | ❌ | ✅ | ⭐⭐⭐⭐⭐ | — |
+| **llms.txt-style tools** | — | Generating llms.txt/llms-full.txt/Markdown mirrors so AI crawlers can read your site properly. | ai, engineering | — | [Docs](#) | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+
+## Image Generation (4)
 
 | Project | GitHub | Description | Tags | Website | Docs | Stars | Self Hosted | MCP | Rating | Alternatives |
 |---|---|---|---|---|---|---|---|---|---|---|
 | **OpenArt AI** | — | AI image and video generation platform. | ai, engineering | [openart.ai](https://openart.ai) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | Leonardo AI |
 | **ComfyUI** | https://github.com/comfy-org/ComfyUI |  | ai, engineering | — | [Docs](#) | 13k | ❌ | ✅ | ⭐⭐⭐⭐⭐ | — |
 | **Leonardo AI** | — |  | ai, engineering | https://leonardo.ai | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Open Higgsfield AI** | [sunnychase/open-higgsfield-ai](https://github.com/sunnychase/open-higgsfield-ai?ref=nocodeopensource.io) | Open-source alternative to Higgsfield AI — Free AI image generation & cinema studio with 20+ models. | ai, engineering | — | [Docs](#) | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Higgsfield AI |
 
 ## Infrastructure & Compute (9)
 
@@ -317,7 +350,7 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 | **ClipGrab** | — | Download videos from many platforms. | ai, engineering | [clipgrab.org](https://clipgrab.org) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **Buffer** | — |  | ai, engineering | https://buffer.com | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 
-## Startup Discovery & Market Research (5)
+## Startup Discovery & Market Research (6)
 
 | Project | GitHub | Description | Tags | Website | Docs | Stars | Self Hosted | MCP | Rating | Alternatives |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -326,6 +359,7 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 | **Trustirr** | — | Startup discovery platform. | ai, engineering | [trustirr.com](https://trustirr.com) | — | — | ❌ | ✅ | ⭐⭐⭐⭐☆ | — |
 | **IdeaBrowser** | — | Business ideas and trends. | ai, engineering | [ideabrowser.com](https://ideabrowser.com) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **TopStartups** | — | Curated startup listings. | ai, engineering | [topstartups.io](https://topstartups.io) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Facebook Ads Library MCP** | [RamsesAguirre777/facebook-ads-library-mcp](https://github.com/RamsesAguirre777/facebook-ads-library-mcp) | MCP server for competitive intelligence and market analysis via Facebook Ads. | ai, engineering | — | [Docs](#) | — | ✅ | ✅ | ⭐⭐⭐⭐⭐ | — |
 
 ## Trading & Finance (22)
 
@@ -340,7 +374,7 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 | **Nebula** | — | AI based quantitative trading platform. | ai, engineering | — | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | QuantConnect |
 | **ImpexQ** | — | Import/export and supplier intelligence. | ai, engineering | [impexq.com](https://impexq.com) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **Vibe-Trading** | https://github.com/HKUDS/Vibe-Trading |  | ai, engineering | — | [Docs](#) | 75k | ❌ | ✅ | ⭐⭐⭐⭐⭐ | — |
-| **Freqtrade** | https://github.com/freqtrade/freqtrade |  | ai, engineering | — | [Docs](#) | 18k | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Freqtrade** | [freqtrade/freqtrade](https://github.com/freqtrade/freqtrade) | Free, open source crypto trading bot. | ai, engineering | — | [Docs](#) | 18k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **Hummingbot** | https://github.com/hummingbot/hummingbot |  | ai, engineering | — | [Docs](#) | 79k | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **Nautilus Trader** | https://github.com/nautechsystems/nautilus_trader |  | ai, engineering | — | [Docs](#) | 64k | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **Jesse** | https://github.com/jesse-ai/jesse |  | ai, engineering | — | [Docs](#) | 29k | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
@@ -374,7 +408,7 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 | **KlipRok** | — | Converts long videos into Shorts, Reels and TikToks with captions and scheduling. | ai, engineering | [www.kliprok.com](https://www.kliprok.com) | — | — | ❌ | ✅ | ⭐⭐⭐⭐☆ | OpusClip |
 | **Lyro Studio** | — | AI assisted video editing platform. | ai, engineering | [lyro.studio](https://lyro.studio) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | CapCut AI |
 
-## Video Generation (7)
+## Video Generation (8)
 
 | Project | GitHub | Description | Tags | Website | Docs | Stars | Self Hosted | MCP | Rating | Alternatives |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -385,6 +419,7 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 | **Video2OpenShotCraft** | [OpenShot/Video2OpenShotCraft](https://github.com/OpenShot/Video2OpenShotCraft) | Converts prompts into OpenShot compatible animations. | ai, engineering | — | [Docs](#) | 52k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | OpenMontage |
 | **MoneyPrinter Turbo** | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | Automatically creates Shorts, TikToks and Reels locally. | ai, engineering | — | [Docs](#) | 27k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | AutoShorts |
 | **Deep-Live-Cam** | https://github.com/hacksider/Deep-Live-Cam |  | ai, engineering | — | [Docs](#) | 73k | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Open Higgsfield AI** | [sunnychase/open-higgsfield-ai](https://github.com/sunnychase/open-higgsfield-ai?ref=nocodeopensource.io) | Open-source alternative to Higgsfield AI — Free AI image generation & cinema studio with 20+ models. | ai, engineering | — | [Docs](#) | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Higgsfield AI |
 
 ## Voice & Audio (3)
 
