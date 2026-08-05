@@ -22,7 +22,7 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 - [Developer Utilities (13)](#developer-utilities-13)
 - [GEO & AEO (5)](#geo-aeo-5)
 - [Image Generation (4)](#image-generation-4)
-- [Import & Export (1)](#import-export-1)
+- [Import & Export (7)](#import-export-7)
 - [Infrastructure & Compute (9)](#infrastructure-compute-9)
 - [Learning Resources (2)](#learning-resources-2)
 - [Legal & Compliance (2)](#legal-compliance-2)
@@ -241,11 +241,17 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 | **Leonardo AI** | — |  | ai, engineering | https://leonardo.ai | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **Open Higgsfield AI** | [sunnychase/open-higgsfield-ai](https://github.com/sunnychase/open-higgsfield-ai?ref=nocodeopensource.io) | Open-source alternative to Higgsfield AI — Free AI image generation & cinema studio with 20+ models. | ai, engineering | — | [Docs](#) | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Higgsfield AI |
 
-## Import & Export (1)
+## Import & Export (7)
 
 | Project | GitHub | Description | Tags | Website | Docs | Stars | Self Hosted | MCP | Rating | Alternatives |
 |---|---|---|---|---|---|---|---|---|---|---|
 | **ImpexQ** | — | Import/export and supplier intelligence. | ai, engineering | [impexq.com](https://impexq.com) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Volza** | — | Import/export shipment database. | ai, engineering | [volza.com](https://www.volza.com) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **ImportGenius** | — | Global shipment data. | ai, engineering | [importgenius.com](https://www.importgenius.com) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Panjiva** | — | Supply chain intelligence. | ai, engineering | [panjiva.com](https://panjiva.com) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Trademo** | — | Trade analytics and compliance. | ai, engineering | [trademo.com](https://www.trademo.com) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Export Genius** | — | Shipment and customs data. | ai, engineering | [exportgenius.in](https://www.exportgenius.in) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **TradeMap** | — | Government trade statistics. | ai, engineering | [trademap.org](https://www.trademap.org) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 
 ## Infrastructure & Compute (9)
 
