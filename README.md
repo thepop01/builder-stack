@@ -9,7 +9,7 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 - [AI Engineering Frameworks (8)](#ai-engineering-frameworks-10)
 - [AI Gateways & Model Routers (4)](#ai-gateways-model-routers-4)
 - [AI Marketing Suites (3)](#ai-marketing-suites-3)
-- [AI Memory & MCP (7)](#ai-memory-mcp-6)
+- [AI Memory & MCP (8)](#ai-memory-mcp-8)
 - [AI Models (2)](#ai-models-2)
 - [AI Research (2)](#ai-research-2)
 - [AI Workspaces & IDEs (7)](#ai-workspaces-ides-7)
@@ -35,7 +35,7 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 - [Security & AI Safety (4)](#security-ai-safety-4)
 - [Social Media Automation (4)](#social-media-automation-4)
 - [Startup Discovery & Market Research (6)](#startup-discovery-market-research-6)
-- [Trading & Finance (22)](#trading-finance-22)
+- [Trading & Finance (23)](#trading-finance-23)
 - [UI & Design (7)](#ui-design-7)
 - [Video Editing (4)](#video-editing-4)
 - [Video Generation (9)](#video-generation-8)
@@ -101,7 +101,7 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 | **claude-blog** | [AI-Marketing-Hub/claude-blog](https://github.com/AI-Marketing-Hub/claude-blog) | 30 sub-skills, 5 agents, dual-optimized for Google rankings and AI citations (GEO). | ai, engineering | — | [Docs](#) | 1k | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **AI marketing plugin** | — | 158 skills, 25 specialist agents, EU AI Act–ready, works across Claude Code, Cowork, Codex, Cursor, Antigravity. | ai, engineering | — | [Docs](#) | 709 | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 
-## AI Memory & MCP (7)
+## AI Memory & MCP (8)
 
 | Project | GitHub | Description | Tags | Website | Docs | Stars | Self Hosted | MCP | Rating | Alternatives |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -111,7 +111,9 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 | **Supermemory** | — |  | ai, engineering | — | — | — | ❌ | ✅ | ⭐⭐⭐⭐☆ | — |
 | **Mem0** | [mem0ai/mem0](https://github.com/mem0ai/mem0) |  | ai, engineering | https://mem0.ai | [Docs](#) | 95k | ✅ | ❌ | ⭐⭐⭐⭐☆ | — |
 | **Claude-Context** | [zilliztech/claude-context](https://github.com/zilliztech/claude-context) | MCP server providing instant semantic search across massive enterprise codebases for coding agents. | ai, engineering | — | [Docs](#) | 34k | ✅ | ✅ | ⭐⭐⭐⭐☆ | — |
-| **MCP Servers** | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | Official Model Context Protocol servers collection. | ai, engineering | — | [Docs](#) | — | ❌ | ✅ | ⭐⭐⭐⭐⭐ | — |\n
+| **MCP Servers** | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | Official Model Context Protocol servers collection. | ai, engineering | — | [Docs](#) | — | ❌ | ✅ | ⭐⭐⭐⭐⭐ | — |
+| **Graft** | [NanoNets/Graft](https://github.com/NanoNets/Graft) | Open-source context layer for large codebases to help AI coding agents. | ai, engineering | — | [Docs](#) | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
+
 ## AI Models (2)
 
 | Project | GitHub | Description | Tags | Website | Docs | Stars | Self Hosted | MCP | Rating | Alternatives |
@@ -361,7 +363,7 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 | **TopStartups** | — | Curated startup listings. | ai, engineering | [topstartups.io](https://topstartups.io) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **Facebook Ads Library MCP** | [RamsesAguirre777/facebook-ads-library-mcp](https://github.com/RamsesAguirre777/facebook-ads-library-mcp) | MCP server for competitive intelligence and market analysis via Facebook Ads. | ai, engineering | — | [Docs](#) | — | ✅ | ✅ | ⭐⭐⭐⭐⭐ | — |
 
-## Trading & Finance (22)
+## Trading & Finance (23)
 
 | Project | GitHub | Description | Tags | Website | Docs | Stars | Self Hosted | MCP | Rating | Alternatives |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -386,6 +388,7 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 | **FinRL** | [AI4Finance-Foundation/FinRL](https://github.com/AI4Finance-Foundation/FinRL) |  | ai, engineering | https://finrl.readthedocs.io | [Docs](#) | 42k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **QuantConnect** | [QuantConnect/Lean](https://github.com/QuantConnect/Lean) |  | ai, engineering | https://www.quantconnect.com | [Docs](#) | 67k | ✅ | ✅ | ⭐⭐⭐⭐☆ | — |
 | **BloombergGPT** | — |  | ai, engineering | https://www.bloomberg.com/company/press/bloomberggpt-50-billion-parameter-llm-tuned-finance/ | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **OpenBB** | [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB) | Open source data platform for finance (ODP). | ai, engineering | [openbb.co](https://openbb.co) | [Docs](#) | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | BloombergGPT |
 
 ## UI & Design (7)
 
