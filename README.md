@@ -12,7 +12,7 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 - [AI Memory & MCP (8)](#ai-memory-mcp-8)
 - [AI Models (2)](#ai-models-2)
 - [AI Research (2)](#ai-research-2)
-- [AI Workspaces & IDEs (7)](#ai-workspaces-ides-7)
+- [AI Workspaces & IDEs (8)](#ai-workspaces-ides-8)
 - [APIs & Integrations (5)](#apis-integrations-4)
 - [Awesome Lists & Curated Collections (5)](#awesome-lists-curated-collections-5)
 - [Browser Automation (4)](#browser-automation-4)
@@ -129,7 +129,7 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 | **GPT Researcher** | [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher) | Deep autonomous research with citations. | ai, engineering | — | [Docs](#) | 57k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **Feynman** | [feynman-ai/feynman](https://github.com/feynman-ai/feynman) | AI research assistant for technical investigations. | ai, engineering | — | [Docs](#) | 62k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
 
-## AI Workspaces & IDEs (7)
+## AI Workspaces & IDEs (8)
 
 | Project | GitHub | Description | Tags | Website | Docs | Stars | Self Hosted | MCP | Rating | Alternatives |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -140,6 +140,7 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 | **Blackbox AI** | — | AI coding assistant with code search and generation. | ai, engineering | [www.blackbox.ai](https://www.blackbox.ai) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **Antigravity** | — | AI first development platform. | ai, engineering | — | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | Orca |
 | **Void** | [voideditor/void](https://github.com/voideditor/void) | Open source Cursor alternative. | ai, engineering | — | [Docs](#) | 46k | ❌ | ✅ | ⭐⭐⭐⭐⭐ | — |
+| **Fugu Studio** | [Md-Sabbir-Ahmed/Fugu-Studio](https://github.com/Md-Sabbir-Ahmed/Fugu-Studio) | Open-source desktop client and workspace for the Sakana AI Fugu model. | ai, engineering | — | [Docs](#) | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
 
 ## APIs & Integrations (5)
 
