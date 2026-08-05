@@ -37,7 +37,7 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 - [Startup Discovery & Market Research (6)](#startup-discovery-market-research-6)
 - [Trading & Finance (22)](#trading-finance-22)
 - [UI & Design (7)](#ui-design-7)
-- [Video Editing (3)](#video-editing-3)
+- [Video Editing (4)](#video-editing-4)
 - [Video Generation (9)](#video-generation-8)
 - [Voice & Audio (3)](#voice-audio-3)
 - [Web Scraping (2)](#web-scraping-2)
@@ -399,13 +399,14 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 | **OpenLovable** | [firecrawl-dev/open-lovable](https://github.com/firecrawl-dev/open-lovable) | Open source alternative to Lovable. | ai, engineering | — | [Docs](#) | 79k | ✅ | ✅ | ⭐⭐⭐⭐⭐ | Bolt |
 | **bolt.diy** | [stackblitz-labs/bolt.diy](https://github.com/stackblitz-labs/bolt.diy) | Self hosted Bolt.new alternative. | ai, engineering | — | [Docs](#) | 20k | ✅ | ❌ | ⭐⭐⭐⭐☆ | OpenLovable |
 
-## Video Editing (3)
+## Video Editing (4)
 
 | Project | GitHub | Description | Tags | Website | Docs | Stars | Self Hosted | MCP | Rating | Alternatives |
 |---|---|---|---|---|---|---|---|---|---|---|
 | **OpenMontage** | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | Agentic video production pipeline with editing, scripting and automation. | ai, engineering | — | [Docs](#) | 77k | ✅ | ✅ | ⭐⭐⭐⭐☆ | ComfyUI |
 | **KlipRok** | — | Converts long videos into Shorts, Reels and TikToks with captions and scheduling. | ai, engineering | [www.kliprok.com](https://www.kliprok.com) | — | — | ❌ | ✅ | ⭐⭐⭐⭐☆ | OpusClip |
 | **Lyro Studio** | — | AI assisted video editing platform. | ai, engineering | [lyro.studio](https://lyro.studio) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | CapCut AI |
+| **OpenVid** | [CristianOlivera1/openvid](https://github.com/CristianOlivera1/openvid) | Open-source, browser-based video editor and screen recorder. | ai, engineering | [openvid.dev](https://openvid.dev) | [Docs](#) | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Screen Studio |
 
 ## Video Generation (9)
 
