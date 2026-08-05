@@ -22,6 +22,7 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 - [Developer Utilities (13)](#developer-utilities-13)
 - [GEO & AEO (5)](#geo-aeo-5)
 - [Image Generation (4)](#image-generation-4)
+- [Import & Export (1)](#import-export-1)
 - [Infrastructure & Compute (9)](#infrastructure-compute-9)
 - [Learning Resources (2)](#learning-resources-2)
 - [Legal & Compliance (2)](#legal-compliance-2)
@@ -35,7 +36,7 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 - [Security & AI Safety (4)](#security-ai-safety-4)
 - [Social Media Automation (4)](#social-media-automation-4)
 - [Startup Discovery & Market Research (6)](#startup-discovery-market-research-6)
-- [Trading & Finance (23)](#trading-finance-23)
+- [Trading & Finance (22)](#trading-finance-22)
 - [UI & Design (7)](#ui-design-7)
 - [Video Editing (4)](#video-editing-4)
 - [Video Generation (9)](#video-generation-8)
@@ -240,6 +241,12 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 | **Leonardo AI** | — |  | ai, engineering | https://leonardo.ai | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **Open Higgsfield AI** | [sunnychase/open-higgsfield-ai](https://github.com/sunnychase/open-higgsfield-ai?ref=nocodeopensource.io) | Open-source alternative to Higgsfield AI — Free AI image generation & cinema studio with 20+ models. | ai, engineering | — | [Docs](#) | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Higgsfield AI |
 
+## Import & Export (1)
+
+| Project | GitHub | Description | Tags | Website | Docs | Stars | Self Hosted | MCP | Rating | Alternatives |
+|---|---|---|---|---|---|---|---|---|---|---|
+| **ImpexQ** | — | Import/export and supplier intelligence. | ai, engineering | [impexq.com](https://impexq.com) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+
 ## Infrastructure & Compute (9)
 
 | Project | GitHub | Description | Tags | Website | Docs | Stars | Self Hosted | MCP | Rating | Alternatives |
@@ -363,7 +370,7 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 | **TopStartups** | — | Curated startup listings. | ai, engineering | [topstartups.io](https://topstartups.io) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **Facebook Ads Library MCP** | [RamsesAguirre777/facebook-ads-library-mcp](https://github.com/RamsesAguirre777/facebook-ads-library-mcp) | MCP server for competitive intelligence and market analysis via Facebook Ads. | ai, engineering | — | [Docs](#) | — | ✅ | ✅ | ⭐⭐⭐⭐⭐ | — |
 
-## Trading & Finance (23)
+## Trading & Finance (22)
 
 | Project | GitHub | Description | Tags | Website | Docs | Stars | Self Hosted | MCP | Rating | Alternatives |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -374,7 +381,6 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 | **CloddsBot** | [alsk1992/CloddsBot](https://github.com/alsk1992/CloddsBot) | AI trading platform focused on prediction markets. | ai, engineering | — | — | 89k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Polymarket |
 | **Orion RFX** | — | AI trading platform. | ai, engineering | — | — | — | ❌ | ❌ | ⭐⭐⭐⭐☆ | TradingAgents |
 | **Nebula** | — | AI based quantitative trading platform. | ai, engineering | — | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | QuantConnect |
-| **ImpexQ** | — | Import/export and supplier intelligence. | ai, engineering | [impexq.com](https://impexq.com) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **Vibe-Trading** | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | Advanced trading platform and ecosystem. | ai, engineering | — | [Docs](#) | 75k | ❌ | ✅ | ⭐⭐⭐⭐⭐ | — |
 | **Freqtrade** | [freqtrade/freqtrade](https://github.com/freqtrade/freqtrade) | Free, open source crypto trading bot. | ai, engineering | — | [Docs](#) | 18k | ✅ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **Hummingbot** | [hummingbot/hummingbot](https://github.com/hummingbot/hummingbot) | Build market making and arbitrage bots. | ai, engineering | — | [Docs](#) | 79k | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
