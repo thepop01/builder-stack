@@ -22,7 +22,7 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 - [Developer Utilities (13)](#developer-utilities-13)
 - [GEO & AEO (5)](#geo-aeo-5)
 - [Image Generation (4)](#image-generation-4)
-- [Import & Export (7)](#import-export-7)
+- [Import & Export (13)](#import-export-13)
 - [Infrastructure & Compute (9)](#infrastructure-compute-9)
 - [Learning Resources (2)](#learning-resources-2)
 - [Legal & Compliance (2)](#legal-compliance-2)
@@ -242,7 +242,7 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 | **Leonardo AI** | — |  | ai, engineering | https://leonardo.ai | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **Open Higgsfield AI** | [sunnychase/open-higgsfield-ai](https://github.com/sunnychase/open-higgsfield-ai?ref=nocodeopensource.io) | Open-source alternative to Higgsfield AI — Free AI image generation & cinema studio with 20+ models. | ai, engineering | — | [Docs](#) | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Higgsfield AI |
 
-## Import & Export (7)
+## Import & Export (13)
 
 | Project | GitHub | Description | Tags | Website | Docs | Stars | Self Hosted | MCP | Rating | Alternatives |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -253,6 +253,12 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 | **Trademo** | — | Trade analytics and compliance. | ai, engineering | [trademo.com](https://www.trademo.com) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **Export Genius** | — | Shipment and customs data. | ai, engineering | [exportgenius.in](https://www.exportgenius.in) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **TradeMap** | — | Government trade statistics. | ai, engineering | [trademap.org](https://www.trademap.org) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **TradeStat** | — | India's official export-import data bank. | ai, engineering | [tradestat.commerce.gov.in](https://tradestat.commerce.gov.in) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Indian Trade Portal** | — | Tariffs, market access requirements, and trade stats for 90+ countries. | ai, engineering | [indiantradeportal.in](https://www.indiantradeportal.in) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **DGCIS** | — | Detailed monthly/annual foreign trade statistics. | ai, engineering | [dgciskol.gov.in](https://dgciskol.gov.in) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **EPCs** | — | Export Promotion Councils for sector-specific buyer leads and trade fair access. | ai, engineering | — | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Eximpedia** | — | Real-time shipment data across 130+ countries. | ai, engineering | [eximpedia.app](https://eximpedia.app) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Seair / Cybex** | — | India-specific import/export data providers. | ai, engineering | — | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | Volza, ImportGenius |
 
 ## Infrastructure & Compute (9)
 
