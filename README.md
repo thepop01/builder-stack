@@ -22,7 +22,7 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 - [Developer Utilities (13)](#developer-utilities-13)
 - [GEO & AEO (5)](#geo-aeo-5)
 - [Image Generation (4)](#image-generation-4)
-- [Import & Export (13)](#import-export-13)
+- [Import & Export (18)](#import-export-18)
 - [Infrastructure & Compute (9)](#infrastructure-compute-9)
 - [Learning Resources (2)](#learning-resources-2)
 - [Legal & Compliance (2)](#legal-compliance-2)
@@ -242,7 +242,7 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 | **Leonardo AI** | — |  | ai, engineering | https://leonardo.ai | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **Open Higgsfield AI** | [sunnychase/open-higgsfield-ai](https://github.com/sunnychase/open-higgsfield-ai?ref=nocodeopensource.io) | Open-source alternative to Higgsfield AI — Free AI image generation & cinema studio with 20+ models. | ai, engineering | — | [Docs](#) | — | ✅ | ❌ | ⭐⭐⭐⭐⭐ | Higgsfield AI |
 
-## Import & Export (13)
+## Import & Export (18)
 
 | Project | GitHub | Description | Tags | Website | Docs | Stars | Self Hosted | MCP | Rating | Alternatives |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -259,6 +259,11 @@ A 100% verified, curated list of 250 of the best AI tools, autonomous agents, an
 | **EPCs** | — | Export Promotion Councils for sector-specific buyer leads and trade fair access. | ai, engineering | — | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **Eximpedia** | — | Real-time shipment data across 130+ countries. | ai, engineering | [eximpedia.app](https://eximpedia.app) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 | **Seair / Cybex** | — | India-specific import/export data providers. | ai, engineering | — | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | Volza, ImportGenius |
+| **Navi Exports** | — | B2B online marketplace connecting verified Indian exporters with global importers. | ai, engineering | [naviexports.com](https://naviexports.com) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Cybex Insight** | — | Report: Top Export Companies in India 2026. | ai, engineering | [cybex.in](https://www.cybex.in) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **DHL Insight** | — | Report: DHL's Top 5 Export Products from India 2026. | ai, engineering | [dhl.com](https://www.dhl.com) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Trade Aventus** | — | Report: India's Export Economy 2026. | ai, engineering | [tradeaventus.com](https://tradeaventus.com) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
+| **Exim Elite** | — | Report: Top Import Exports Products 2026. | ai, engineering | [eximelite.com](https://eximelite.com) | — | — | ❌ | ❌ | ⭐⭐⭐⭐⭐ | — |
 
 ## Infrastructure & Compute (9)
 
